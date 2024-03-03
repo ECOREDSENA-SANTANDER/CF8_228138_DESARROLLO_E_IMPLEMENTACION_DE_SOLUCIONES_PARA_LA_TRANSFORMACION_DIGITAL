@@ -1,14 +1,19 @@
+.banner-principal .tarjeta
+  background-position: 0 center
+  
 .banner-principal-decorativo
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    width: 134px !important
+    top: 65%
+    right: 85%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    width: 163px !important
+    top: 35%
+    right: 0%
 
 
 @keyframes float1
@@ -17,3 +22,479 @@
 
   100%
     transform: translateY(0px)
+
+
+iframe
+  border-radius: 10px
+
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-image: url("../assets/curso/flecha.svg") !important  
+
+.slyder-a__bullets
+  bottom: -30px !important
+
+.slyder-a__bullets
+  flex-wrap: wrap
+  justify-content: center
+  div
+    margin: 3px 10px
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  @media (max-width: 992px)
+    top: 100%
+
+.titulo-sexto
+  border-left: 5px solid
+  padding: 8px 0 8px 15px;
+  p
+    &.titulo
+      font-size: 14px !important
+      margin-bottom: 0px
+
+.bloque-texto-g.color-secundario
+  background-color: #ffe5cf
+
+.cajon.color-primario
+  background-color: #c2d6de
+
+.Mn-2
+  @media (min-width: 1200px)
+    margin-top: -20px
+
+td
+  border: 1px solid #E8E8E8 !important
+
+
+.tabs-c__tab--active
+  font-weight: bold
+
+.tema1
+
+  .bloque-texto-g__img
+    width: 45%;
+    @media (max-width: 992px)
+        width: 100% !important
+
+  .bloque-texto-g__texto
+    width: 67%
+    @media (max-width: 992px)
+        width: 100% !important
+
+  .tabs-a__tab
+    background-color: #e8e8e8
+  .tarjeta1
+    background-color: #ffeeeb
+    border-radius: 10px
+    border: 4px solid #FFD6CE
+
+  .acordion 
+    .acordion__activo
+      background-color: #ffe7e3 !important
+    .tarjeta--azul 
+      background-color: #f6f6f6
+
+
+  .bloque1
+    .bloque-texto-b
+      &.color-secundario:before 
+        background-color: #ffe5cf;
+      &::before
+        top: 25%;
+        left: 70%;
+        height: 50%;
+
+  .bloque2
+    .bloque-texto-b
+      &.color-secundario:before 
+        background-color: #ffc8bf;
+      &::before
+        top: 0%;
+        left: 0%;
+        width: 30%
+        height: 50%;
+
+  .TFcontainer
+      position: relative
+      width: 100%
+      //border-radius: 10px
+
+  .TFimage
+    display: block
+    width: 100%
+    height: 100%
+    object-fit: cover !important
+      
+
+  .TFoverlay    
+    position: absolute
+    bottom: 0%
+    left: 0
+    right: 0
+    border-radius: 15px
+    overflow: hidden
+    width: 99.9%
+    margin-left: 0%       
+    height: 0%
+    min-height: 90px
+    transition: .5s ease
+    background-color: #ff3c00
+    //background-color: red
+
+  .contenidooculto
+    display: none
+
+  .TFcontainer:hover .TFoverlay
+    height: 100%
+    align-items: center!important;    
+    background-color: #ff8e7c !important
+
+    .contenidooculto
+      display: block !important
+
+  .fondo1
+    position: relative
+    padding-bottom: 1rem   
+    &::before
+      content: ""
+      position: absolute
+      top: 0
+      left: 2.5%
+      width: 134%
+      height: 100%
+      margin: 0 -5rem      
+      background-color: #fff3ea
+      background-size: 100% 100%
+      background-repeat: no-repeat
+      background-position: center
+
+.tema2
+  .fondo1
+    border-radius: 10px
+    background: rgba(10,78,106,1);
+    background: -moz-linear-gradient(top, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(10,78,106,1)), color-stop(100%, rgba(2,10,13,1)));
+    background: -webkit-linear-gradient(top, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    background: -o-linear-gradient(top, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    background: -ms-linear-gradient(top, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    background: linear-gradient(to bottom, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a4e6a', endColorstr='#020a0d', GradientType=0 );
+    
+  .bloque-texto-d.color-secundario:before
+    background-color: #ffe7e3;
+
+.tema3
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: #ff6148  
+
+  .slyder-a__tipo-a .slyder-a__bullets
+    bottom: 0px
+
+  .slyder-a__bullets__item
+    background-color: #afafaf
+    border-color: #afafaf
+
+  .slyder-a__bullets__item--active
+    background-color: #ff6148
+    border-color: #ff6148
+
+  .bloque-texto-g
+    background-color: #ffb476 !important
+
+  .bloque-texto-g__img
+    width: 40%;
+    @media (max-width: 992px)
+        width: 100% !important
+
+  .bloque-texto-g__texto
+    width: 69%
+    @media (max-width: 992px)
+        width: 100% !important
+
+.tema6
+  .bloque-texto-g
+    background-color: #ff8e7c !important
+
+  .bloque-texto-g__img
+    width: 45%;
+    @media (max-width: 992px)
+        width: 100% !important
+
+  .bloque-texto-g__texto
+    width: 67%
+    @media (max-width: 992px)
+        width: 100% !important
+
+  .fondo1
+    position: relative
+    padding-bottom: 1rem  
+    &::before
+      content: ""
+      position: absolute
+      top: 0
+      left: 2.5%
+      width: 134%
+      height: 100%
+      margin: 0 -5rem      
+      background-color: #fff3ea
+      background-size: 100% 100%
+      background-repeat: no-repeat
+      background-position: center
+
+.tema4
+  .tabs-a__tab
+    background-color: #e8e8e8
+    
+  .tarjeta1
+    background-color: #ffeeeb
+    border-radius: 10px
+    border: 4px solid #FFD6CE
+.tema7
+  .tarjeta1
+    cursor: pointer
+    &:hover
+      background-color: #ff8e7c !important
+
+  .bloque-texto-g
+    justify-content: flex-start !important
+
+  .bloque-texto-g__img
+    right: 0 !important
+    left: inherit !important
+    width: 35%;
+    @media (max-width: 992px)
+        width: 100% !important
+
+  .bloque-texto-g__texto    
+    width: 75%
+    @media (max-width: 992px)
+        width: 100% !important
+  .fondo1
+    position: relative
+    padding-bottom: 1rem  
+    &::before
+      content: ""
+      position: absolute
+      top: 0
+      left: 2.5%
+      width: 134%
+      height: 100%
+      margin: 0 -5rem      
+      background-color: #fff9f4
+      background-size: 100% 100%
+      background-repeat: no-repeat
+      background-position: center
+
+  .bloque1
+    .bloque-texto-b
+      &.color-secundario:before 
+        background-color: #ffe5cf;
+      &::before
+        top: 0%;
+        left: 68%;
+        height: 60%;
+  
+.tema8
+  .bloque-texto-g
+    justify-content: flex-start !important
+
+  .bloque-texto-g__img
+    right: 0 !important
+    left: inherit !important
+    width: 45%;
+    @media (max-width: 992px)
+        width: 100% !important
+
+  .bloque-texto-g__texto    
+    width: 69%
+    @media (max-width: 992px)
+        width: 100% !important
+
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: #ff6148  
+
+  .slyder-a__tipo-a .slyder-a__bullets
+    bottom: 0px
+
+  .slyder-a__bullets__item
+    background-color: #afafaf
+    border-color: #afafaf
+
+  .slyder-a__bullets__item--active
+    background-color: #ff6148
+    border-color: #ff6148
+
+  .bloque1
+    .bloque-texto-b
+      &.color-secundario:before 
+        background-color: #ffc8bf;
+      &::before
+        top: 0%;
+        left: 70%;
+        height: 50%;
+
+  .bloque2
+    .bloque-texto-b
+      &.color-secundario:before 
+        background-color: #ffe7e3;
+      &::before
+        top: 0%;
+        left: 0%;
+        width: 40%
+        height: 40%;
+
+  .bloque3
+    .bloque-texto-b
+      &.color-secundario:before 
+        background-color: #ffe5cf;
+      &::before
+        top: 0%;
+        left: 60%;
+        height: 20%;
+
+  .bloque4
+    .bloque-texto-b
+      &.color-secundario:before 
+        background-color: #ffe7e3;
+      &::before
+        top: 0%;
+        left: 0%;
+        width: 40%
+        height: 50%;
+
+  .fondo1
+    position: relative
+    padding-bottom: 1rem  
+    &::before
+      content: ""
+      position: absolute
+      top: 0
+      left: 2.5%
+      width: 134%
+      height: 100%
+      margin: 0 -5rem      
+      background-color: #fff9f4
+      background-size: 100% 100%
+      background-repeat: no-repeat
+      background-position: center
+
+.CPointer
+  cursor: pointer
+
+.tema9
+  .bloque-texto-g
+    justify-content: flex-start !important
+
+  .bloque-texto-g__img
+    right: 0 !important
+    left: inherit !important
+    width: 45%;
+    @media (max-width: 992px)
+        width: 100% !important
+
+  .bloque-texto-g__texto    
+    width: 69%
+    @media (max-width: 992px)
+        width: 100% !important
+
+  .tarjeta1:hover
+    cursor: pointer
+    background-color: #ffb476 !important
+    .tarjeta2
+      background-color: #ffffff !important
+
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: #ff6148  
+
+  .slyder-a__tipo-a .slyder-a__bullets
+    bottom: 0px
+
+  .slyder-a__bullets__item
+    background-color: #afafaf
+    border-color: #afafaf
+
+  .slyder-a__bullets__item--active
+    background-color: #ff6148
+    border-color: #ff6148
+
+  .slyder-a__bullets
+    display: none
+
+  .acordion 
+    .acordion__activo
+      background-color: #ffe7e3 !important
+    .tarjeta--azul 
+      background-color: #f6f6f6
+
+  .bloque1
+    .bloque-texto-b
+      &.color-secundario:before 
+        background-color: #ffe5cf;
+      &::before
+        top: 0%;
+        left: 70%;
+        height: 50%;
+  .bloque2
+    .bloque-texto-b
+      &.color-secundario:before 
+        background-color: #ffe7e3;
+      &::before
+        top: 0%;
+        left: 70%;
+        height: 70%;
+
+  .bloque3
+    .bloque-texto-b
+      &.color-secundario:before 
+        background-color: #ffe7e3;
+      &::before
+        top: 0%;
+        left: 0%;
+        width: 35%
+        height: 45%;
+
+  .fondo1
+    border-radius: 10px
+    background: rgba(10,78,106,1);
+    background: -moz-linear-gradient(top, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(10,78,106,1)), color-stop(100%, rgba(2,10,13,1)));
+    background: -webkit-linear-gradient(top, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    background: -o-linear-gradient(top, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    background: -ms-linear-gradient(top, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    background: linear-gradient(to bottom, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a4e6a', endColorstr='#020a0d', GradientType=0 );
+
+.tema10
+  .tarjeta1
+    cursor: pointer
+    &:hover
+      background-color: #ff8e7c !important
+
+  .bloque1
+    .bloque-texto-b
+      &.color-secundario:before 
+        background-color: #ffe7e3;
+      &::before
+        top: 0%;
+        left: 0%;
+        width: 30%
+        height: 55%;
+
+
+.lista-ul
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.lista-ul--color
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.bloque-texto-b i
+  font-size: 1em !important
