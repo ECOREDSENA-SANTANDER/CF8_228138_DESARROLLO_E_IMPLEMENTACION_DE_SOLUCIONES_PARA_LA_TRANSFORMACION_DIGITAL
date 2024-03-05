@@ -32,30 +32,30 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Fundamentos de redes y <i>networking</i>',
+        titulo: '¿Qué es IoT?',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Conceptos',
+            titulo: 'origen e importancia',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: 'Características',
+            titulo: 'Arquitectura IoT ',
             hash: 't_1_2',
           },
           {
             numero: '1.3',
-            titulo: 'Enrutamiento IP',
-            hash: 't_1_7',
+            titulo: 'Componentes de IoT ',
+            hash: 't_1_3',
           },
         ],
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Raspberry Pi y Arduin',
+        titulo: 'Raspberry Pi y Arduino',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -64,14 +64,56 @@ export default {
         numero: '3',
         titulo: 'Conectividad IoT',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Protocolos de conexión',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Protocolo de comunicación MQTT',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Computación en la nube',
+            hash: 't_1_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Pasarelas de cloud para IoT',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Adquisición de datos en la nube',
+            hash: 't_3_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Protocolos de capa de aplicació',
+        titulo: 'Protocolos de capa de aplicación',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: ' HTTP',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'WEBSOCKETS',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'JSON',
+            hash: 't_4_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema5',
@@ -85,7 +127,13 @@ export default {
         numero: '6',
         titulo: 'Almacenamiento para IoT',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo: 'Tipos',
+            hash: 't_6_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema7',
@@ -95,18 +143,13 @@ export default {
         subMenu: [
           {
             numero: '7.1',
-            titulo: 'Características de los activos de información',
+            titulo: 'Analógicos y digitales',
             hash: 't_7_1',
           },
           {
             numero: '7.2',
-            titulo: 'Tipos de activos de información',
+            titulo: 'Programación de bloques',
             hash: 't_7_2',
-          },
-          {
-            numero: '7.3',
-            titulo: 'Técnicas de valoración de activos',
-            hash: 't_7_3',
           },
         ],
       },
@@ -114,7 +157,7 @@ export default {
         nombreRuta: 'tema8',
         numero: '8',
         titulo:
-          'Criterios de configuración, interconexión y administración para Io',
+          'Criterios de configuración, interconexión y administración para IoT',
         desarrolloContenidos: true,
       },
     ],
