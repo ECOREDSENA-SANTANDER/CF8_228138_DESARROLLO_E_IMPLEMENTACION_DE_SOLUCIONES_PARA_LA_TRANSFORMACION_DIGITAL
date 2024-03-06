@@ -74,6 +74,27 @@
           h5.p-2 Inventado en el Ivrea Interaction Design Institute, diseñado para la creación rápida de prototipos dirigido a aficionados, muy pronto su uso creció exponencialmente y se adapta a las últimas tendencias en el mercado, desde una placa de 8 bits hasta productos IoT, dispositivos portátiles y entornos embebidos.
           p.p-2 El software Arduino es fácil de usar y se puede operar en plataformas Mac, Linux y Windows.<br><br>A continuación identifiquemos cada uno de sus componentes:
   
+
+          
+      .container.color-contenedorpink.p-3
+        .row(data-aos="fade-left")
+          .col-lg-2.col-22
+            img.p-1(src="@/assets/curso/tema2/img6.png") 
+          .col-lg-10.col-22.p-3
+            h4 Ventajas de Arduino
+            ol.lista-ol
+              li 
+                span.text-bold • Costo
+                p Los tableros de Arduino son menos costosos comparados con otros dispositivos como microcontroladores.
+              li 
+                span.text-bold • Plataforma
+                p El software de Arduino (IDE ) es compatible con la mayoría de sistemas operativos como Macintosh OSX, Windows , Linux
+              li 
+                span.text-bold • Fácil de usar
+                p El software de Arduino (IDE)es fácil de usar, además tiene flexibilidad para programadores expertos.
+              li 
+                span.text-bold • Código abierto
+                p El Arduino es un software de código abierto que puede ser programado con lenguajes C, C++, AVR-C 
   </template>
 
 <script>

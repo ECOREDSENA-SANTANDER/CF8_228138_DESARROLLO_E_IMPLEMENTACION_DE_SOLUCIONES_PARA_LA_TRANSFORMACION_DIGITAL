@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="565" viewBox="0 0 820 565">
+  <g id="Grupo_157574" data-name="Grupo 157574" transform="translate(-410 -3436)">
+    <rect id="Rectángulo_35277" data-name="Rectángulo 35277" width="820" height="565" rx="10" transform="translate(410 3436)" fill="#ffe5cf"/>
+    <g id="Grupo_91396" data-name="Grupo 91396" transform="translate(493 3472)">
+      <path id="Trazado_600440" data-name="Trazado 600440" d="M46.413,0A46.413,46.413,0,1,1,0,46.413,46.413,46.413,0,0,1,46.413,0Z" transform="translate(125.299 399.423)" fill="#ffb476"/>
+      <circle id="Elipse_4411" data-name="Elipse 4411" cx="46.413" cy="46.413" r="46.413" transform="translate(441.254 399.423)" fill="#ff6148"/>
+      <text id="A" transform="translate(172 472)" fill="#083142" font-size="78" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-27.422" y="0">A</tspan></text>
+      <text id="B" transform="translate(488 472)" fill="#12263f" font-size="78" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-25.003" y="0">B</tspan></text>
+      <rect id="Rectángulo_35269" data-name="Rectángulo 35269" width="282" height="103" rx="10" transform="translate(20)" fill="#ffb476"/>
+      <rect id="Rectángulo_35272" data-name="Rectángulo 35272" width="282" height="66" rx="10" transform="translate(353)" fill="#ff6148"/>
+      <rect id="Rectángulo_35273" data-name="Rectángulo 35273" width="282" height="66" rx="10" transform="translate(353 78)" fill="#ff6148"/>
+      <rect id="Rectángulo_35274" data-name="Rectángulo 35274" width="282" height="66" rx="10" transform="translate(353 156)" fill="#ff6148"/>
+      <rect id="Rectángulo_35275" data-name="Rectángulo 35275" width="282" height="66" rx="10" transform="translate(353 238)" fill="#ff6148"/>
+      <rect id="Rectángulo_35276" data-name="Rectángulo 35276" width="282" height="66" rx="10" transform="translate(353 316)" fill="#ff6148"/>
+      <rect id="Rectángulo_35270" data-name="Rectángulo 35270" width="282" height="103" rx="10" transform="translate(20 139)" fill="#ffb476"/>
+      <rect id="Rectángulo_35271" data-name="Rectángulo 35271" width="282" height="103" rx="10" transform="translate(20 278)" fill="#ffb476"/>
+      <text id="Capa_de_aplicación" data-name="Capa de aplicación" transform="translate(161 58)" fill="#12263f" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="-81.813" y="0">Capa de aplicación</tspan></text>
+    </g>
+    <text id="Capa_de_negocio" data-name="Capa de negocio" transform="translate(987 3513)" fill="#12263f" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="-72.457" y="0">Capa de negocio</tspan></text>
+    <text id="Capa_de_aplicación-2" data-name="Capa de aplicación" transform="translate(987 3587)" fill="#12263f" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="-81.813" y="0">Capa de aplicación</tspan></text>
+    <text id="Capa_de_procesamiento" data-name="Capa de procesamiento" transform="translate(987 3668)" fill="#12263f" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="-103.122" y="0">Capa de procesamiento</tspan></text>
+    <text id="Capa_de_transporte" data-name="Capa de transporte" transform="translate(987 3749)" fill="#12263f" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="-84.274" y="0">Capa de transporte</tspan></text>
+    <text id="Capa_de_percepción" data-name="Capa de percepción" transform="translate(987 3830)" fill="#12263f" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="-85.953" y="0">Capa de percepción</tspan></text>
+    <text id="Capa_de_red" data-name="Capa de red" transform="translate(654 3668)" fill="#12263f" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="-52.11" y="0">Capa de red</tspan></text>
+    <text id="Capa_de_percepción-2" data-name="Capa de percepción" transform="translate(654 3810)" fill="#12263f" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="-85.953" y="0">Capa de percepción</tspan></text>
+  </g>
+</svg>
