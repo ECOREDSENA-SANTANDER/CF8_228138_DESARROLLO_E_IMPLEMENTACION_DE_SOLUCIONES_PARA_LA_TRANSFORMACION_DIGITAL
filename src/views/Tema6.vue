@@ -10,7 +10,7 @@
       p El almacenamiento para los dispositivos y aplicaciones de internet de las cosas requiere nuevas tácticas y rumbos, como los que se relacionan a continuación:
 
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
-        .col-sm-6.col-xl-3.mb-3.mb-xl-0
+        .col-sm-6.col-xl-4.mb-3.mb-xl-0.vh-90
           .tarjeta.tarjeta-slide.arriba.fondo-tarjetasflip(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
@@ -19,7 +19,7 @@
                 p Comenzaron la tendencia de IoT. Incluyen termostatos y abridores de puertas de garaje, pero también sistemas de cámaras en el hogar, dispositivos de TV, entre otros dispositivos domésticos inteligentes.
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/img001.png')})`}")
 
-        .col-sm-6.col-xl-3.mb-3.mb-xl-0
+        .col-sm-6.col-xl-4.mb-3.mb-xl-0.vh-90
           .tarjeta.tarjeta-slide.abajo.fondo-tarjetasflip(@mouseover="indicadorTarjetaSlide = false")
             .tarjeta-slide__contenedor
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/img002.png')})`}")
@@ -27,7 +27,7 @@
                 h4 Dispositivos IoT empresariales
                 p Los datos no estructurados generados por los dispositivos IoT son un caso de uso perfecto para procedimientos de almacenamiento de objetos altamente escalables e, incluso, almacenamiento en la nube. La clave: garantizar capacidad de almacenamiento de datos y ancho de banda para el manejo de la velocidad requerida en los sistemas de almacenamiento IoT.
 
-        .col-sm-6.col-xl-3.mb-3.mb-sm-0
+        .col-sm-6.col-xl-4.mb-3.mb-xl-0.vh-90
           .tarjeta.tarjeta-slide.derecha.fondo-tarjetasflip(@mouseover="indicadorTarjetaSlide = false")
             .tarjeta-slide__contenedor
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/img003.png')})`}")

@@ -56,42 +56,21 @@
         p Según un artículo en <i>Hindawi Journal of Electrical and Computer Engineering</i>, no existe una arquitectura acordada para el Internet de las Cosas. Una arquitectura simple puede estar compuesta de tres o cinco capas. 
         p Conozcamos la arquitectura compuesta por tres capas:
 
-      //.row.justify-content-center.align-items-center
-        .col-lx-5.col-22.p-5
-          .tarjeta
-            img.mb-lg-1.mb-8(alt="" src="@/assets/curso/tema1/1.png")
-            .fondo-slyderC.p-3
-              h4 Fuera del hogar
-              p Automóviles en red, prendas tecnológicas y monitores de salud en la ropa, aplicaciones para ciclistas para controlar su actividad física. Gafas inteligentes.
-        .col-lg-10.col-22.p-5
-          .tarjeta
-            img.mb-lg-1.mb-8(alt="" src="@/assets/curso/tema1/2.png")
-            .fondo-slyderC.p-3
-              h4 Ropa tecnológica (wearables)
-              p Dispositivos médicos, productos de salud, marcapasos y bombas de insulina. Estos wearables monitorizan la geolocalización, así como la frecuencia cardiaca, el pulso, calorías, patrones del sueño, etc.
-        .col-lg-10.col-22.p-5
-          .tarjeta
-            img.mb-lg-1.mb-8(alt="" src="@/assets/curso/tema1/3.png")
-            .fondo-slyderC.p-3
-              h4 Transporte
-              p Supervisión de vehículos conectados, sensores de proximidad, parqueo de vehículos, vehículos autónomos, control remoto de peajes.
-      
-      .row.justify-content-center.align-items-center
-        .col-sm-6.col-lg-4.mb-4.mb-lg-0
-          .tarjeta.color-salmon.p-5
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/curso/tema1/01.png')
-              h4.text-center Capa de percepción
-              p.text-small Es la capa física, la cual tiene sensores para detectar y recopilar información sobre el medio ambiente.
+      //.row.mb-5
+        .col-md-6.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar.color-salmon.p-5
+           img(src='@/assets/curso/tema3/cone1.png' alt='AvatarTop')
+            .tarjeta.fondo-slyderC
+              .p-4
+                h4.text-center Capa de percepción
+                p.text-small Es la capa física, la cual tiene sensores para detectar y recopilar información sobre el medio ambiente.
 
         .col-sm-6.col-lg-4.mb-4.mb-lg-0
-          .tarjeta.color-salmon.p-5
+          .tarjeta-avatar.color-salmon.p-5
             .row.justify-content-center.mb-3
               .col-7
                 figure
-                  img(src='@/assets/curso/tema1/02.png')
+                  img(src='@/assets/curso/tema1/02.png' alt='AvatarTop')
               
             h4.text-center Capa de red
             p.text-small Tiene la función de conectarse a otras cosas inteligentes, dispositivos de red y servidores, se transmiten y procesan datos de los sensores.
@@ -201,7 +180,8 @@
               .col-md-3
                 figure.justify-content-center.align-items-center
                   img(src="@/assets/curso/tema1/a3.png")
-        
+
+            
       .row(data-aos="fade-left") 
         .col-lg-12 
           p <b>1. Según la fuente de energía:</b> se requieren para generar movimiento.

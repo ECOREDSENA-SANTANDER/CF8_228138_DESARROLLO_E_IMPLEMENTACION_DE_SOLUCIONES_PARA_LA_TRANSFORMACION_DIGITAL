@@ -15,6 +15,18 @@
     top: 35%
     right: 0%
 
+.topSquare02
+  position: relative
+  padding-top: 1em
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: 35%
+    height: 80%
 
 @keyframes float1
   0%
@@ -50,7 +62,10 @@
 .color-neutral
   background-color: #E8E8E8
     
- 
+.topSquare.clr--Yellow, .topSquare02.clr--Yellow::before
+  background-color: #FEE6D1
+  height: 100%
+
 iframe
   border-radius: 10px
 
@@ -110,7 +125,7 @@ td
   .tabs-a__tab
     background-color: #e8e8e8
   .tarjeta1
-    background-color: #ffeeeb
+    background-color: #FFE7E3
     border-radius: 10px
     border: 4px solid #FFD6CE
 
@@ -236,6 +251,11 @@ td
     width: 69%
     @media (max-width: 992px)
         width: 100% !important
+  .acordion 
+    .acordion__activo
+      background-color: #FFE7E3 !important
+    .tarjeta--azul 
+      background-color: #f6f6f6
 
 .tema6
   .bloque-texto-g
@@ -270,7 +290,8 @@ td
 .tema4
   .tabs-a__tab
     background-color: #e8e8e8
-    
+    cursor: pointer
+    background-color: #ff8e7c !important
   .tarjeta1
     background-color: #ffeeeb
     border-radius: 10px
