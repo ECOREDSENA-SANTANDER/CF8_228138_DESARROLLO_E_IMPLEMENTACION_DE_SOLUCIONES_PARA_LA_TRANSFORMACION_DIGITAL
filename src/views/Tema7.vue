@@ -41,17 +41,17 @@
           h4.subrayado-naranja.p-1 Herramientas de programación por bloques
 
       SlyderF(columnas="col-lg-4 col-xl-4").p-4(data-aos="fade-right")
-        .tarjeta
+        .tarjeta.lg-flex
           img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema7/slyder1.png")
           .fondo-slyderC.p-3
             h4 Scratch
-            p Herramienta suficientemente intuitiva y fluida, que permite al usuario trabajar con lenguaje de programación en bloques, usando piezas que se parecen a las de un rompecabezas.
-        .tarjeta
+            p.p-4 Herramienta suficientemente intuitiva y fluida, que permite al usuario trabajar con lenguaje de programación en bloques, usando piezas que se parecen a las de un rompecabezas.
+        .tarjeta.lg-flex
           img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema7/slyder2.png")
           .fondo-slyderC.p-3
             h4 Scratch Jr.
-            p Se trata de una versión más sencilla y digerible de Scratch diseñada para los niños. La manera de presentar la programación en bloques facilita el entendimiento de usuarios de muy corta edad.
-        .tarjeta
+            p.p-3 Se trata de una versión más sencilla y digerible de Scratch diseñada para los niños. La manera de presentar la programación en bloques facilita el entendimiento de usuarios de muy corta edad.
+        .tarjeta.lg-flex
           img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema7/slyder3.png")
           .fondo-slyderC.p-3
             h4 Minecraft
@@ -60,12 +60,12 @@
           img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema7/slyder4.png")
           .fondo-slyderC.p-3
             h4 Arduino
-            p Ofrece dos modalidades de programación para niños: una visual y otra centrada en lenguaje de código escrito. La primera, que funciona con bloques con códigos integrados, es bastante popular en la enseñanza de robótica.
+            p.p-2 Ofrece dos modalidades de programación para niños: una visual y otra centrada en lenguaje de código escrito. La primera, que funciona con bloques con códigos integrados, es bastante popular en la enseñanza de robótica.
         .tarjeta
           img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema7/slyder5.png")
           .fondo-slyderC.p-4
             h4 Google Blockly
-            p Se conforma de un conjunto de comandos que pueden ordenarse como piezas de rompecabezas. Es fácil de utilizar y está enfocado a usuarios pequeños que no esencialmente sepan escribir código.
+            p.p-1 Se conforma de un conjunto de comandos que pueden ordenarse como piezas de rompecabezas. Es fácil de utilizar y está enfocado a usuarios pequeños que no esencialmente sepan escribir código.
 </template>
 
 <script>

@@ -164,32 +164,32 @@
       p La computación en la nube ofrece tres posibilidades en cuanto a modelos de servicio, a saber:
 
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
-        .col-sm-6.col-xl-3.mb-3.mb-xl-0
+        .col-sm-6.col-xl-4.mb-4.mb-xl-0
           .tarjeta.tarjeta-slide.arriba.fondo-tarjetasflip(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5
                 h4 SaaS 
-                  p (software como un servicio)
+                p (software como un servicio)
                 p Aplicaciones que se ejecutan en la nube, en este caso para el usuario es invisible la infraestructura de red, almacenamiento, servidores, sistemas operativos y la nube asegura correcto funcionamiento del aplicativo. Ejemplos de este modelo son Google Docs, Gmail, Dropbox.
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/1.png')})`}")
 
-        .col-sm-6.col-xl-3.mb-3.mb-xl-0
+        .col-sm-6.col-xl-4.mb-4.mb-xl-0
           .tarjeta.tarjeta-slide.abajo.fondo-tarjetasflip(@mouseover="indicadorTarjetaSlide = false")
             .tarjeta-slide__contenedor
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/2.png')})`}")
               .tarjeta-slide__contenido.p-4.p-xl-5
                 h4 PaaS
-                  p (plataforma como un servicio)
+                p (plataforma como un servicio)
                 p En este caso la nube alberga todo lo necesario para construir y entregar aplicaciones basadas en la nube, en este caso el usuario puede controlar la aplicación, pero no puede administrar la infraestructura subyacente de la nube. Ejemplos de este modelo son Openshift y Google App Engine.
 
-        .col-sm-6.col-xl-3.mb-3.mb-sm-0
+        .col-sm-6.col-xl-4.mb-4.mb-sm-0
           .tarjeta.tarjeta-slide.derecha.fondo-tarjetasflip(@mouseover="indicadorTarjetaSlide = false")
-            .tarjeta-slide__contenedor
+            .tarjeta-slide__contenedor.d-flex
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/3.png')})`}")
               .tarjeta-slide__contenido.p-4.p-xl-5
                 h4 IaaS 
-                  p (infraestructura como un servicio)
+                p (infraestructura como un servicio)
                 p En este modelo se proporciona a las empresas servidores, almacenamiento, redes y centros de datos listos para su uso; el proveedor se encarga de la comunicación, el procesamiento o el almacenamiento.
       Separador
       #t_3_4.titulo-segundo.color-acento-contenido
@@ -238,6 +238,23 @@
               .col-md-6.mb-4.mb-md-0
                 p Ofrece herramientas que posibilitan la conexión de dispositivos como procesamiento, almacenamiento y análisis de datos en la nube. 
 
+
+      .row.justify-content-center
+        .col-sm-6.col-lg-5.mb-4.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/04.png' alt='')
+            .tarjeta.color-contenedornaranja2
+              .p-4
+                h4 Capa de transporte 
+                p Encargada de transferir los datos de sensores desde la capa de percepción a la capa de procesamiento y viceversa a través de redes tales como Wireless, 3G, LAN , Bluetooth, RFID Y NFC.
+
+        .col-sm-6.col-lg-5.mb-4.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/05.png' alt='AvatarTop')
+            .tarjeta.color-contenedornaranja2 
+              .p-4
+                h4 Capa de procesamiento o capa middleware
+                p Almacena, analiza y procesa grandes cantidades de datos que provienen de la capa de transporte
       Separador
       #t_3_5.titulo-segundo.color-acento-contenido
         h2 3.5 Adquisición de datos en la nube
@@ -249,6 +266,54 @@
           p Según la Unión Internacional de Telecomunicaciones (ITU-T), el Big Data es un paradigma para habilitar la colección, almacenamiento, gestión, análisis y visualización –potencialmente con limitaciones de tiempo real–, de un extenso conjunto de datos con características heterogéneas.
         .col-lg-4.col-22
           img(src="@/assets/curso/tema3/03.png")
+
+          .p-2
+      
+      SlyderF(columnas="col-lg-4 col-xl-4").p-4(data-aos="fade-right") 
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema3/01.svg' alt='AvatarTop')
+          .tarjeta.fondo-slyderC
+            .p-4
+              h4 Velocidad
+              p Implica que los datos son generados con muy alta frecuencia y cambian constantemente, en el caso de IoT las medidas captadas por los sensores se realizan con mucha frecuencia.
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema3/02.svg' alt='AvatarTop')
+          .tarjeta.fondo-slyderC
+            .p-4
+              h4 Variedad 
+              p Indica los diferentes tipos de datos recolectados, pueden ser texto, imágenes, videos, audios o logs, estructurados o no estructurados, los datos de IoT pueden ser almacenados en formatos JSON.
+        
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema3/03.svg' alt='AvatarTop')
+          .tarjeta.fondo-slyderC
+            .p-4
+              h4 Veracidad
+              p Indica el grado de fiabilidad de la información, es clave hacer un filtrado con la tecnología del Big Data de lo que puede ser falso o no. 
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema3/04.svg' alt='AvatarTop')
+          .tarjeta.fondo-slyderC
+            .p-4
+              h4 Volumen
+              p Indica la gran cantidad de datos recolectada de diferentes fuentes de datos, esta cantidad de datos se mide en terabytes(tb), petabytes (PB), incluso a los EB, en el caso de IoT provienen de sensores y dispositivos inteligentes.
+
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema3/05.svg' alt='AvatarTop')
+          .tarjeta.fondo-slyderC
+            .p-4
+              h4 Valor
+              p Hace referencia a la información útil de verdad que se puede extraer de los datos. Esa misma ayudará a las empresas  a generar un valor agregado para tu negocio, que se convierte en conocimiento y en una acción o decisión. 
+  
+      .row.p-3
+        p Para soportar los modelos de datos, se han desarrollado varias plataformas del Big Data como Hadoop, Apache Spark, Apache Flinkm, Apache Storm.
+        p El objetivo del Big Data es extraer la mayor cantidad de valor, información o conocimiento de los grandes volúmenes de datos para lograr conclusiones acertadas y mejorar la toma de decisiones. El proceso de análisis de datos está compuesto por una extracción, limpieza, transformación, modelado y visualización de los datos
+  
+      .row.justify-content-center.align-items-center
+        .col-lg-10.col-22.p-3
+          .container.tarjeta.color-contenedornaranja.p-4.p-md-5
+            .col-lg-12.col-22.p-1
+            .titulo-sexto.color-acento-contenido.mb-3
+              p.mb-0 #[b figura 2.] Proceso del Big Data
+            img(src="@/assets/curso/tema3/ultimo.svg")
   </template>
 
 <script>

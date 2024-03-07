@@ -10,12 +10,12 @@
             img(src="@/assets/template/Completar_Espacios.svg", alt="Actividad didáctica:Autoevaluación de conceptos de análisis y valoración de riesgos de ciberseguridad")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Autoevaluación de conceptos de análisis y valoración de riesgos de ciberseguridad
-        p.mb-4 Identificar los conceptos acerca del análisis y valoración de riesgos de ciberseguridad con el fin de afianzar los conocimientos adquiridos en el componente.
+          h2 Autoevaluación de conceptos de análisis y valoración de riesgos de ciberseguridadConceptos básicos para la configuración de dispositivos de IoT
+        p.mb-4 Identificar conceptos básicos relacionados con el desarrollo de soluciones de IoT para la transformación digital, de acuerdo con requerimientos de implementación establecidos.  
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Completar
+              p.fw-bold.mb-0 Completar frases
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar

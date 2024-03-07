@@ -31,17 +31,17 @@
           img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema5/img04.png")
           .fondo-slyderC.p-3
             h4 Sensores de presión
-            p Habituales en instalaciones industriales, en el mantenimiento de sistemas de suministro de agua y calefacción o para la obtención de pronósticos meteorológicos.
+            p Habituales en instalaciones industriales, en el mantenimiento de sistemas de suministro de agua y calefacción o para la obtención de pronósticos meteorológicos.<br><br>
         .tarjeta
           img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema5/img05.png")
-          .fondo-slyderC.p-4
+          .fondo-slyderC.p-3
             h4 Sensores de humedad
-            p Especialmente importantes en ámbitos como la agricultura, por ejemplo, mejorando la eficiencia de los sistemas de riego en la gestión de un recurso natural tan escaso como el agua.
+            p Especialmente importantes en ámbitos como la agricultura, por ejemplo, mejorando la eficiencia de los sistemas de riego en la gestión de un recurso natural tan escaso como el agua.<br><br>
         .tarjeta
           img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema5/img06.png")
-          .fondo-slyderC.p-4
+          .fondo-slyderC.p-3
             h4 Sensores de nivel
-            p Los sensores de nivel se utilizan para medir todo tipo de fluidos en estado líquido, gaseoso, materiales de consistencia pastosa, etc.
+            p Los sensores de nivel se utilizan para medir todo tipo de fluidos en estado líquido, gaseoso, materiales de consistencia pastosa, etc.<br><br><br>
   </template>
 
 <script>

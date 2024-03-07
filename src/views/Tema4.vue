@@ -10,41 +10,54 @@
       p En TI, un protocolo de comunicaciones es un procedimiento de criterios que permiten que dos o más entidades de un sistema se comuniquen para transmitir la información por medio de cualquier tipo de conmutación de una extensión física. Dentro de los protocolos de comunicación, las partes involucradas deben acordar los protocolos de red que se dividen en las siguientes siete capas:
 
       SlyderF(columnas="col-lg-4 col-xl-4").p-4(data-aos="fade-right")
-        .tarjeta
-          img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema4/img01.png")
-          .fondo-slyderC.p-3
-            h4 Capa 1 - Nivel físico
-            p Cable coaxial o UTP. Cable de fibra óptica. Proporciona los medios mecánicos y eléctricos funcionales para activar, mantener o desactivar conexiones.
-        .tarjeta
-          img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema4/img02.png")
-          .fondo-slyderC.p-3
-            h4 Capa 2 - Nivel de enlace de datos
-            p Responsable de la transferencia de la información. Permite la comunicación entre la capa de red y la capa física por medio de la Ethernet que viene con cada computadora.
-        .tarjeta
-          img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema4/img03.png")
-          .fondo-slyderC.p-3
-            h4 Capa 3 - Nivel de red
-            p Posibilita que los datos de origen lleguen a su destino. Algunos protocolos de esta capa de red son: Psec, IPv4, IPv6.
-        .tarjeta
-          img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema4/img04.png")
-          .fondo-slyderC.p-3
-            h4 Capa 4 - Nivel de transporte
-            p Transferencia libre de datos confiables entre origen y destino. Destacan los protocolos TCP (provee flujo de bytes confidenciales de extremo a extremo) y UDP (a través del cual las aplicaciones envían datagramas IP encapsulados).
-        .tarjeta
-          img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema4/img05.png")
-          .fondo-slyderC.p-3
-            h4 Capa 5 - Nivel de sesión
-            p Organiza y sincroniza el diálogo y control de intercambio de los datos. El protocolo NetBIOS enlaza un sistema operativo de red con un hardware específico.
-        .tarjeta
-          img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema4/img06.png")
-          .fondo-slyderC.p-3
-            h4 Capa 6 - Nivel de presentación
-            p Trabaja el contenido de la comunicación, considerando que las computadoras manejan de forma distinta la semántica y sintaxis de los datos. La norma ASN.1 clasifica los datos en simples o compuestos, y primitivos, construidos o definidos.
-        .tarjeta
-          img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema4/img07.png")
-          .fondo-slyderC.p-3
-            h4 Capa 7 - Nivel de aplicación
-            p Puede acceder a las demás capas y definir los protocolos para el intercambio de datos. Por ejemplo en el correo electrónico se usa POP y SMTP, y protocolos de transferencia de ficheros como FTP.
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema4/img01.png' alt='AvatarTop')
+          .tarjeta.fondo-slyderC
+            .p-4
+              h4 Capa 1 - Nivel físico
+              p Cable coaxial o UTP. Cable de fibra óptica. Proporciona los medios mecánicos y eléctricos funcionales para activar, mantener o desactivar conexiones.
+        
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema4/img02.png' alt='AvatarTop')
+          .tarjeta.fondo-slyderC
+            .p-4
+              h4 Capa 2 - Nivel de enlace de datos
+              p Responsable de la transferencia de la información. Permite la comunicación entre la capa de red y la capa física por medio de la Ethernet que viene con cada computadora.
+        
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema4/img03.png' alt='AvatarTop')
+          .tarjeta.fondo-slyderC
+            .p-4
+              h4 Capa 3 - Nivel de red
+              p Posibilita que los datos de origen lleguen a su destino. Algunos protocolos de esta capa de red son: Psec, IPv4, IPv6.
+        
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema4/img04.png' alt='AvatarTop')
+          .tarjeta.fondo-slyderC
+            .p-4
+              h4 Capa 4 - Nivel de transporte
+              p Transferencia libre de datos confiables entre origen y destino. Destacan los protocolos TCP (provee flujo de bytes confidenciales de extremo a extremo) y UDP (a través del cual las aplicaciones envían datagramas IP encapsulados).
+        
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema4/img05.png' alt='AvatarTop')
+          .tarjeta.fondo-slyderC
+            .p-4
+              h4 Capa 5 - Nivel de sesión
+              p Organiza y sincroniza el diálogo y control de intercambio de los datos. El protocolo NetBIOS enlaza un sistema operativo de red con un hardware específico.
+        
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema4/img06.png' alt='AvatarTop')
+          .tarjeta.fondo-slyderC
+            .p-4
+              h4 Capa 6 - Nivel de presentación
+              p Trabaja el contenido de la comunicación, considerando que las computadoras manejan de forma distinta la semántica y sintaxis de los datos. La norma ASN.1 clasifica los datos en simples o compuestos, y primitivos, construidos o definidos.
+        
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema4/img07.png' alt='AvatarTop')
+          .tarjeta.fondo-slyderC
+            .p-4
+              h4 Capa 7 - Nivel de aplicación
+              p Puede acceder a las demás capas y definir los protocolos para el intercambio de datos. Por ejemplo en el correo electrónico se usa POP y SMTP, y protocolos de transferencia de ficheros como FTP.
   
       Separador
       #t_4_1.titulo-segundo.color-acento-contenido

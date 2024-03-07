@@ -17,7 +17,7 @@
               .tarjeta-slide__contenido.p-4.p-xl-5
                 h4 Dispositivos IoT de consumo
                 p Comenzaron la tendencia de IoT. Incluyen termostatos y abridores de puertas de garaje, pero también sistemas de cámaras en el hogar, dispositivos de TV, entre otros dispositivos domésticos inteligentes.
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/img001.png')})`}")
+              .tarjeta-slide__img.m-auto(:style="{'background-image': `url(${require('@/assets/curso/tema6/img001.png')})`}")
 
         .col-sm-6.col-xl-4.mb-3.mb-xl-0.vh-90
           .tarjeta.tarjeta-slide.abajo.fondo-tarjetasflip(@mouseover="indicadorTarjetaSlide = false")
@@ -43,7 +43,11 @@
           p Existen diferentes tipos de sensores con características, funcionalidades y diversidad de marcas ofrecidas en el mercado. Los razonamientos a tener en cuenta para elegir un buen sensor se resumen en la siguiente infografía:
       .col-lg-3.col-22
           h4.subrayado-naranja.p-1 Selección de sensores para IoT: 
-
+  
+      .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
+        .col-lg-10.col-12
+          img(src="@/assets/curso/tema6/6.1.png") 
+      
       separador 
       #t_6_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
         h2 6.2 Tecnologías <i>iscsi, fiber channel, sas y arreglos raid</i>

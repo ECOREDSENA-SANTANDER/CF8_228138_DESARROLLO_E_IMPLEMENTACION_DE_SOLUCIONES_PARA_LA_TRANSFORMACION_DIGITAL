@@ -207,139 +207,144 @@ export default {
   },
   referencias: [
     {
-      referencia: 'Cloud Education. (2021). Redes. IBM. ',
+      referencia:
+        'Microsoft. (2021).  Línea base de seguridad de Azure para Azure Active Directory. ',
       link:
-        'https://www.ibm.com/co-es/cloud/learn/networking-a-complete-guide#toc-trminos-y--ZhqcZz4r',
+        'https://docs.microsoft.com/es-es/security/benchmark/azure/baselines/aad-security-baseline?toc=/azure/active-directory/fundamentals/toc.json',
     },
     {
       referencia:
-        'Corporation and/or its affiliates. (2010). Modelo de referencia OSI. ORACLE. ',
-      link: 'https://docs.oracle.com/cd/E19957-01/820-2981/ipov-8/index.html',
-    },
-    {
-      referencia:
-        'Ministerio de Hacienda y Administraciones Públicas de España. (2012). Metodología de análisis y gestión de riesgos de los sistemas de información.',
-      link:
-        'https://administracionelectronica.gob.es/pae_Home/dam/jcr:fb373672-f804-4d05-8567-2d44b3020387/2012_Magerit_v3_libro1_metodo_es_NIPO_630-12-171-8.pdf',
-    },
-    {
-      referencia:
-        'Ministerio de Tecnologías de la Información y las Comunicaciones de Colombia. (2017). Guía de transición IPv4 a IPv6 para Colombia. ',
-      link:
-        'https://www.mintic.gov.co/portal/715/articles-162301_guia_transicion_ipv4_ipv6.pdf',
-    },
-    {
-      referencia:
-        'Organización de Estados Americanos. (2019). Ciberseguridad marco NIST. Un abordaje integral de la ciberseguridad. ',
-      link:
-        'https://www.oas.org/es/sms/cicte/docs/OEA-AWS-Marco-NIST-de-Ciberseguridad-ESP.pdf',
-    },
-    {
-      referencia:
-        'Organización Internacional de Normalización. (ISO). (2013). Seguridad de la información, ciberseguridad y protección de la privacidad (ISO 27001). ',
-      link: 'https://www.iso.org/standard/54534.html',
-    },
-    {
-      referencia: 'Projete. (s.f.). Amenazas y vulnerabilidades. ',
-      link:
-        'https://protejete.wordpress.com/gdr_principal/amenazas_vulnerabilidades/',
+        'Real Academia Española. (s.f.). Contratación. En Diccionario de la lengua española. Recuperado el 10 de noviembre, 2022, de',
+      link: 'https://dle.rae.es/contratación',
     },
   ],
   glosario: [
     {
-      termino: 'Activos de información',
+      termino: 'Active Directory (AD):',
       significado:
-        'están relacionados con la seguridad de la información, hacen referencia a cualquier información o dispositivo que tenga que ver con el tratamiento de esta y que sea de valor para la organización.',
+        'base de datos y conjunto de servicios que conectan a los usuarios con los recursos de red que necesitan para realizar su trabajo.',
     },
     {
-      termino: 'Auditoría',
+      termino: 'Continuidad',
       significado:
-        'acción que consiste en emitir criterios y opiniones profesionales acerca de cualquier objeto de análisis, del cual se espera que represente de manera adecuada la realidad que pretende reflejar; también sobre si cumple o no con las condiciones y funcionalidades que se han acordado en el nivel de servicio.',
+        'en tecnología, hace referencia al principio en el que los recursos, información, servicios y aplicaciones se mantienen en funcionamiento continuo ante un evento no deseado.',
     },
     {
-      termino: 'Auditorías internas de SGSI',
+      termino: 'Contenedores',
       significado:
-        'el principal objetivo de la auditoría de SGSI es investigar, de manera objetiva, si existe algo que esté mal realizado. El auditor interno tiene que ser una persona capacitada, con su conocimiento debe poder descubrir si algo se hace mal dentro de la organización. Realizando un buen trabajo, correctivo y/o preventivo, entonces la auditoría interna de SGSI mejorará su seguridad.',
+        'en el sector transporte (por ejemplo, en buques y en trenes), se usan contenedores físicos para aislar diferentes cargas.  Las tecnologías de desarrollo de software usan cada vez más un método denominado contenerización.',
     },
     {
-      termino: 'Ciberseguridad',
+      termino: 'Contratación',
       significado:
-        'conjunto de metodologías, medidas y controles destinados a gestionar la seguridad de la información de una organización y/o de la información en general.',
+        'Pacto o convenio, oral o escrito, entre partes que se obligan sobre materia o cosa determinada, y a cuyo cumplimiento pueden ser compelidas (Real Academia Española, s.f.)”.',
     },
     {
-      termino: '<em>Ethical hacking</em>',
+      termino: 'Cloud computing:',
       significado:
-        'proceso que se da al interior de las organizaciones a través del cual se exploran las vulnerabilidades existentes en los sistemas, haciendo pruebas de intrusión, que sirven para verificar y evaluar la seguridad física y lógica de los sistemas de información, redes de computadoras, aplicaciones web, bases de datos, servidores, etc.',
+        'la computación en la nube, conocida también como servicios en la nube, consiste en el uso de una red de servidores remotos alojados en Internet para almacenar, administrar y procesar datos e información, en lugar de un servidor local o una computadora personal.',
     },
     {
-      termino: '<em>Malware</em>',
+      termino: 'Ciberseguridad:',
       significado:
-        '<em>software</em> diseñado para comprometer la seguridad de la información, como la utilidad y preservación del equipo.',
+        'conjunto de elementos articulados para la protección de la información alojados en dispositivos en el ciberespacio.',
     },
     {
-      termino: 'Riesgo',
+      termino: 'Disponibilidad',
       significado:
-        'posibilidad de sufrir una afectación por causa de factores externos o internos. El riesgo es un peligro latente que puede o no materializarse. En el orden informático y de ciberseguridad, los riesgos no son distintos, contemplan las vulnerabilidades y las amenazas y pueden ser controlados, tratados, mitigados, prevenidos y, en algunos casos, eliminados.',
+        'en tecnología, hace referencia al principio en el que los recursos, información, servicios y aplicaciones están disponibles para quienes tienen derecho de acceso a ellos.',
     },
     {
-      termino: 'Seguridad informática',
+      termino: 'Dominio',
       significado:
-        'rama del saber que tiene ocupación en el diseño de normas y criterios, procedimientos y métodos, técnicas y estrategias, dirigidos a lograr seguridad y confiabilidad en un sistema de información. ',
+        'un dominio cuando hablamos de virtualización almacena una partición de directorio de dominio que consta de información sobre el dominio en el que se encuentra, más el esquema y las particiones del directorio de configuración para todo el bosque.',
     },
     {
-      termino: 'Tratamiento de riesgos',
+      termino: 'Framework',
       significado:
-        'medidas y controles que se implementan para mitigar el impacto o la frecuencia de ocurrencia de un riego.',
+        'marco de trabajo específico, con instrucciones y estructuras, para la implementación de alguna acción.',
     },
     {
-      termino: 'Virus informático',
+      termino: 'Incidente',
+      significado: 'suceso repentino no deseado.',
+    },
+    {
+      termino: 'Migración',
       significado:
-        '<em>software</em> que se instala en un dispositivo sin el consentimiento del usuario, con el fin de alterar el funcionamiento. ',
+        'la migración de la TI consiste en trasladar datos o software de un sistema a otro.',
+    },
+    {
+      termino: 'Proveedor',
+      significado: 'sujeto o entidad que suministra un producto o servicios.',
+    },
+    {
+      termino: 'Servicio',
+      significado:
+        'conjunto de herramientas y actividades que sirven para responder a una necesidad.',
+    },
+    {
+      termino: 'Servicio de TI:',
+      significado:
+        'conjunto de recursos tecnológicos disponibles para ser utilizados como apoyo operativo de las actividades de negocio dentro de una organización, que entregan valor a la misma, facilitando el cumplimiento de las actividades y objetivos.',
+    },
+    {
+      termino: 'Virtualización',
+      significado:
+        'tecnología que permite crear servicios de TI útiles, con recursos que están tradicionalmente vinculados al hardware.  ',
     },
   ],
   complementario: [
     {
-      tema:
-        '2. Normatividad y estándares: ciberseguridad<br><br>3. Normatividad y estándares: seguridad de la información',
+      tema: 'Adquisición de datos en la nube',
       referencia:
-        'ISO. (2018). Seguridad de la información, ciberseguridad y protección de la privacidad (ISO 27005).',
-      tipo: 'Norma / Documento',
-      link: 'https://www.iso.org/standard/75281.html',
+        'Agencia española de protección de datos. (2013). Guía para clientes que contraten servicios de Computing. [Archivo PDF].',
+      tipo: 'Documento PDF',
+      link:
+        'http://www.oas.org/es/sla/ddi/docs/Gu%C3%ADa%20para%20clientes%20que%20contraten%20servicios%20de%20Cloud%20Computing%20-%20AGPD.pdf',
     },
     {
-      tema:
-        '2. Normatividad y estándares: ciberseguridad<br><br>3. Normatividad y estándares: seguridad de la información',
+      tema: 'Computación en la nube',
       referencia:
-        'ISO. (2013). Seguridad de la información, ciberseguridad y protección de la privacidad (ISO 27002). ',
-      tipo: 'Norma / Documento',
-      link: 'https://www.iso.org/standard/54533.html',
+        'Decreto 1377 de 2013.  Por el cual se reglamenta parcialmente la Ley 1581 de 2012. 27 de junio de 2013.',
+      tipo: 'PDF',
+      link:
+        'https://www.mintic.gov.co/arquitecturati/630/articles-9011_documento.pdf',
     },
     {
-      tema: '8. Amenazas y vulnerabilidades',
+      tema: 'Computación en la nube',
       referencia:
-        'Gómez, V., Á. (2015). Auditoría de seguridad informática. RA-MA Editorial. ',
+        'Ley 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales.  17 de octubre de 2022. D.O. No. 48587.',
       tipo: 'Libro',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=6422&pg=1',
     },
     {
-      tema: '9. Riesgos',
-      referencia:
-        'Gómez V., Á. (2015). Seguridad en equipos informáticos. RA-MA Editorial.',
-      tipo: 'Libro',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=8105&pg=1',
+      tema: 'Conectividad IoT',
+      referencia: 'Microsoft. (s.f.).  Introduction to AD DS.',
+      tipo: 'Página web',
+      link:
+        'https://docs.microsoft.com/en-us/learn/modules/introduction-to-ad-ds/',
     },
     {
-      tema: '9.2. Características, impacto y análisis de riesgos',
-      referencia: 'ISO (2018). Gestión del riesgo. Directrices (ISO 31000). ',
-      tipo: 'Norma / Documento',
-      link: 'https://www.iso.org/obp/ui#iso:std:iso:31000:ed-2:v1:es',
+      tema: 'Computación en la nube',
+      referencia:
+        'Ministerio de Tecnologías de la Información y Comunicaciones (2019) G.ST.01 Guía del dominio de servicios tecnológicos.',
+      tipo: 'Guía ',
+      link:
+        'https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf',
     },
     {
-      tema: '10. <em>Ethical Hacking</em>',
+      tema: 'Computación en la nube',
       referencia:
-        'Astudillo, B. K. (2019). Hacking ético: ¡Cómo convertirse en hacker ético en 21 días o menos! Ediciones de la U.',
-      tipo: 'Libro',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=10047&pg=1',
+        'Ministerio de Tecnologías de la Información y Comunicaciones. (2016). Seguridad en la nuble.  Seguridad y privacidad de la información.',
+      tipo: 'Guía',
+      link:
+        'https://mintic.gov.co/gestionti/615/articles-5482_G12_Seguridad_Nube.pdf',
+    },
+    {
+      tema: 'Adquisición de datos en la nube',
+      referencia: 'Public cloud services comparison. (s.f.).',
+      tipo: 'Página web',
+      link: 'comparecloud.in',
     },
   ],
   creditos: [
@@ -347,15 +352,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
-          centro: 'Dirección General',
+          nombre: '',
+          cargo: '',
+          centro: '',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: '',
+          cargo: '',
+          centro: '',
         },
       ],
     },
@@ -363,31 +367,20 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Diana Carolina Triana Guarnizo',
+          nombre: '',
           cargo: 'Instructor',
-          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+          centro: '',
         },
         {
-          nombre: 'Juan Carlos Cárdenas Sánchez',
+          nombre: '',
           cargo: 'Instructor',
-          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+          centro: '',
         },
         {
-          nombre: 'Gloria Esperanza Ortiz Russi',
-          cargo: 'Diseñador Instruccional',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Fabián Leonardo Correa Díaz',
+          nombre: 'Maribel Avellaneda Nieves',
           cargo: 'Diseñador Instruccional',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Ana Catalina Córdoba Sus',
-          cargo: 'Asesor Metodológico',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Distrito Capital',
+            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
         },
       ],
     },
@@ -395,46 +388,9 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Yerson Fabian Zarate Saavedra',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
-        },
-        // {
-        //   nombre: 'Emilsen Alfonso Bautista ',
-        //   cargo: 'Actividad didáctica',
-        //   centro:
-        //     'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
-        // },
-        {
-          nombre: 'Francisco José Lizcano Reyes',
-          cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
-        },
-        {
-          nombre: 'Wilson Andrés Arenales Cáceres ',
-          cargo: 'Storyboard e Ilustración ',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
-        },
-        {
-          nombre: 'Mary Jeans Palacio Camacho ',
-          cargo: 'Animador y Productor Multimedia  ',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
-        },
-        {
-          nombre: 'Carlos Eduardo Garavito Parada ',
-          cargo: 'Animador y Productor Multimedia ',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
-        },
-        {
-          nombre: 'Camilo Andrés Bolaño Rey',
-          cargo: ' Locución ',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
+          nombre: 'Leonardo Castellanos Rodriguez',
+          cargo: 'Ingeniero Desarrollador Fullstack',
+          centro: 'San gil - Regional Santander ',
         },
       ],
     },
@@ -442,22 +398,9 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruíz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales ',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Luis Gabriel Urueta Álvarez',
-          cargo: 'Validador de Recursos Educativos Digitales ',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles ',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: '',
+          cargo: '',
+          centro: '',
         },
       ],
     },

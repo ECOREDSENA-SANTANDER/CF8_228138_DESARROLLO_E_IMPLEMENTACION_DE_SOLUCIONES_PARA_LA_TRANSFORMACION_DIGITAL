@@ -8,9 +8,9 @@
         h1 1. ¿Qué es IoT?
      
       .row(data-aos="fade-left")
-        .col-lg-4.col-22
+        .col-lg-4.col-12
           img(src="@/assets/curso/tema1/titulo1.png")
-        .col-lg-8.col-22 
+        .col-lg-8.col-22
           p El internet de las cosas <b>hace referencia a la interconexión de los dispositivos y objetos con otros mediante redes como internet, empleando sensores y actuadores integrados y variedad de elementos electrónicos.</b> La interconexión de estos dispositivos con microprocesadores y la conexión de la red, permite obtener, tratar y transferir datos en forma automática; todo objeto en el mundo puede ser una fuente de datos.
           p A grandes rasgos, podemos decir que el internet de las cosas se conforma por tres sectores: conectividad, hardware y servicios, y el sector de servicios es un campo fértil por sembrar: <b>desarrollo web en la nube, ingeniería de datos, machine learning, inteligencia artificial, big data.</b>
       
@@ -23,31 +23,37 @@
         p El internet de las cosas tiene un millar de aplicaciones, algunas de ellas son:
 
       SlyderF(columnas="col-lg-4 col-xl-4").p-4(data-aos="fade-right")
-        .tarjeta
-          img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema1/1.png")
-          .fondo-slyderC.p-3
-            h4 Fuera del hogar
-            p Automóviles en red, prendas tecnológicas y monitores de salud en la ropa, aplicaciones para ciclistas para controlar su actividad física. Gafas inteligentes.
-        .tarjeta
-          img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema1/2.png")
-          .fondo-slyderC.p-3
-            h4 Ropa tecnológica (wearables)
-            p Dispositivos médicos, productos de salud, marcapasos y bombas de insulina. Estos wearables monitorizan la geolocalización, así como la frecuencia cardiaca, el pulso, calorías, patrones del sueño, etc.
-        .tarjeta
-          img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema1/3.png")
-          .fondo-slyderC.p-3
-            h4 Transporte
-            p Supervisión de vehículos conectados, sensores de proximidad, parqueo de vehículos, vehículos autónomos, control remoto de peajes.
-        .tarjeta
-          img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema1/4.png")
-          .fondo-slyderC.p-3
-            h4 Contadores inteligentes
-            p Dispositivos electrónicos de medición de energía, calefacción, climatización , agua.
-        .tarjeta
-          img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema1/5.png")
-          .fondo-slyderC.p-3
-            h4 Hogar inteligente
-            p Termostatos domésticos, control de televisores, detectores de humo, cámaras de seguridad, cafeteras y otros electrodomésticos.
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/1.png' alt='AvatarTop')
+          .tarjeta.fondo-slyderC
+            .p-4
+              h4 Fuera del hogar
+              p Automóviles en red, prendas tecnológicas y monitores de salud en la ropa, aplicaciones para ciclistas para controlar su actividad física. Gafas inteligentes.
+        
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/2.png' alt='AvatarTop')
+          .tarjeta.fondo-slyderC
+            .p-4
+              h4 Ropa tecnológica (wearables)
+              p Dispositivos médicos, productos de salud, marcapasos y bombas de insulina. Estos wearables monitorizan la geolocalización, así como la frecuencia cardiaca, el pulso, calorías, patrones del sueño, etc.
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/3.png' alt='AvatarTop')
+          .tarjeta.fondo-slyderC
+           .p-4
+              h4 Transporte
+              p Supervisión de vehículos conectados, sensores de proximidad, parqueo de vehículos, vehículos autónomos, control remoto de peajes.
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/4.png' alt='AvatarTop')
+          .tarjeta.fondo-slyderC
+            .p-4
+              h4 Contadores inteligentes
+              p Dispositivos electrónicos de medición de energía, calefacción, climatización , agua.
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/5.png' alt='AvatarTop')
+          .tarjeta.fondo-slyderC
+           .p-4
+              h4 Hogar inteligente
+              p Termostatos domésticos, control de televisores, detectores de humo, cámaras de seguridad, cafeteras y otros electrodomésticos.
 
       Separador
       #t_1_2.titulo-segundo.color-acento-contenido
@@ -56,58 +62,51 @@
         p Según un artículo en <i>Hindawi Journal of Electrical and Computer Engineering</i>, no existe una arquitectura acordada para el Internet de las Cosas. Una arquitectura simple puede estar compuesta de tres o cinco capas. 
         p Conozcamos la arquitectura compuesta por tres capas:
 
-      //.row.mb-5
-        .col-md-6.col-lg.mb-5.mb-lg-0
-          .tarjeta-avatar.color-salmon.p-5
-           img(src='@/assets/curso/tema3/cone1.png' alt='AvatarTop')
-            .tarjeta.fondo-slyderC
-              .p-4
-                h4.text-center Capa de percepción
-                p.text-small Es la capa física, la cual tiene sensores para detectar y recopilar información sobre el medio ambiente.
-
+      .row(columnas="col-lg-4 col-xl-4").p-4(data-aos="fade-right")
         .col-sm-6.col-lg-4.mb-4.mb-lg-0
-          .tarjeta-avatar.color-salmon.p-5
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/curso/tema1/02.png' alt='AvatarTop')
-              
-            h4.text-center Capa de red
-            p.text-small Tiene la función de conectarse a otras cosas inteligentes, dispositivos de red y servidores, se transmiten y procesan datos de los sensores.
-
-        .col-sm-6.col-lg-4.mb-4.mb-sm-0
-          .tarjeta.color-salmon.p-5
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/curso/tema1/03.png')
-
-            h4.text-center Capa de aplicación
-            p.text-small Es responsable de proporcionar servicios de aplicación al usuario, ejemplo hogares inteligentes, ciudades inteligentes, salud inteligente, etc.
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/01.png' alt='AvatarTop')
+            .tarjeta.color-salmon
+              .p-4
+                h4 Capa de percepción
+                p Es la capa física, la cual tiene sensores para detectar y recopilar información sobre el medio ambiente.
+        
+        .col-sm-6.col-lg-4.mb-4.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/02.png' alt='AvatarTop')
+            .tarjeta.color-salmon   
+              .p-4
+                h4 Capa de red
+                p Tiene la función de conectarse a otras cosas inteligentes, dispositivos de red y servidores, se transmiten y procesan datos de los sensores.
+        
+        .col-sm-6.col-lg-4.mb-4.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/03.png' alt='AvatarTop')
+            .tarjeta.color-salmon
+              .p-4
+                h4 Capa de aplicación
+                p Es responsable de proporcionar servicios de aplicación al usuario, ejemplo hogares inteligentes, ciudades inteligentes, salud inteligente, etc.
      
       .row.p-4
-        .col-7
-            p En la arquitectura de cinco capas, encontramos adicionalmente:
+        .col-12
+          p En la arquitectura de cinco capas, encontramos adicionalmente:
 
       .row.justify-content-center
-        .col-sm-6.col-lg-4.mb-4.mb-lg-0
-          .tarjeta.color-salmon.p-5
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/curso/tema1/04.png')
-              h4.text-center Capa de transporte 
-              p.text-small Encargada de transferir los datos de sensores desde la capa de percepción a la capa de procesamiento y viceversa a través de redes tales como Wireless, 3G, LAN , Bluetooth, RFID Y NFC.
+        .col-sm-6.col-lg-5.mb-4.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/04.png' alt='AvatarTop')
+            .tarjeta.color-salmon
+              .p-4
+                h4 Capa de transporte 
+                p Encargada de transferir los datos de sensores desde la capa de percepción a la capa de procesamiento y viceversa a través de redes tales como Wireless, 3G, LAN , Bluetooth, RFID Y NFC.
 
-        .col-sm-6.col-lg-4.mb-4.mb-lg-0
-          .tarjeta.color-salmon.p-5
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/curso/tema1/05.png')
-              
-            h4.text-center Capa de procesamiento o capa middleware
-            p.text-small Almacena, analiza y procesa grandes cantidades de datos que provienen de la capa de transporte. Puede administrar y proporcionar un conjunto diverso de servicios a las capas inferiores, aquí encontramos tecnologías como bases de datos, computación en la nube y procesamiento de big data.
+        .col-sm-6.col-lg-5.mb-4.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/05.png' alt='AvatarTop')
+            .tarjeta.color-salmon
+              .p-4
+                h4 Capa de procesamiento o capa middleware
+                p Almacena, analiza y procesa grandes cantidades de datos que provienen de la capa de transporte. Puede administrar y proporcionar un conjunto diverso de servicios a las capas inferiores, aquí encontramos tecnologías como bases de datos, computación en la nube y procesamiento de big data.
       .row.p-4 
         .col
           p En la siguiente figura se puede observar una comparación entre cada una de estas arquitecturas:
