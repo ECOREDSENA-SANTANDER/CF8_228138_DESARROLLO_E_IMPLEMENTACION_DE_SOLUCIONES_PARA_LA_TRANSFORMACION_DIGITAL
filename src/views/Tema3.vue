@@ -127,7 +127,10 @@
             .col-lg-12.col-22.p-1
             .titulo-sexto.color-acento-contenido.mb-3
               p.mb-0 #[b figura 1.] Protocolo MQTT
-            img(src="@/assets/curso/tema3/3.2.svg")
+              img.d-none.d-md-block(src='@/assets/curso/tema3/3.2.svg', alt='') 
+              img.d-block.d-md-none(src='@/assets/curso/tema3/3.2mobile.svg', alt='')
+
+
 
       p La estrategia comunicativa se basa en la publicación de mensajes específicos (topics) y la suscripción a esos mensajes. Estos mensajes son una trama de datos con un payload que contiene la información real para el servidor o para el resto de nodos. En una red de sensores esta información contiene valores medidos por los sensores, tales como temperatura, humedad, estado, etc.
 
@@ -164,7 +167,7 @@
       p La computación en la nube ofrece tres posibilidades en cuanto a modelos de servicio, a saber:
 
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
-        .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .col-sm-6.col-xl-4.mb-4.mb-xl-5.tarjetaflipcontenido 
           .tarjeta.tarjeta-slide.arriba.fondo-tarjetasflip(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
@@ -172,21 +175,21 @@
                 h4 SaaS 
                 p (software como un servicio)
                 p Aplicaciones que se ejecutan en la nube, en este caso para el usuario es invisible la infraestructura de red, almacenamiento, servidores, sistemas operativos y la nube asegura correcto funcionamiento del aplicativo. Ejemplos de este modelo son Google Docs, Gmail, Dropbox.
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/1.png')})`}")
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/1.svg')})`}")
 
-        .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .col-sm-6.col-xl-4.mb-4.mb-xl-5.tarjetaflipcontenido
           .tarjeta.tarjeta-slide.abajo.fondo-tarjetasflip(@mouseover="indicadorTarjetaSlide = false")
             .tarjeta-slide__contenedor
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/2.png')})`}")
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/2.svg')})`}")
               .tarjeta-slide__contenido.p-4.p-xl-5
                 h4 PaaS
                 p (plataforma como un servicio)
                 p En este caso la nube alberga todo lo necesario para construir y entregar aplicaciones basadas en la nube, en este caso el usuario puede controlar la aplicación, pero no puede administrar la infraestructura subyacente de la nube. Ejemplos de este modelo son Openshift y Google App Engine.
 
-        .col-sm-6.col-xl-4.mb-4.mb-sm-0
+        .col-sm-6.col-xl-4.mb-4.mb-xl-5.tarjetaflipcontenido
           .tarjeta.tarjeta-slide.derecha.fondo-tarjetasflip(@mouseover="indicadorTarjetaSlide = false")
             .tarjeta-slide__contenedor.d-flex
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/3.png')})`}")
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/3.svg')})`}")
               .tarjeta-slide__contenido.p-4.p-xl-5
                 h4 IaaS 
                 p (infraestructura como un servicio)

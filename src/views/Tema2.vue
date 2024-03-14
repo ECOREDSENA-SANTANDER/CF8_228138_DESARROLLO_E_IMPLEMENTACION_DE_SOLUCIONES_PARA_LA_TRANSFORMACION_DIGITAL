@@ -19,11 +19,11 @@
           .container.color-contenedornaranja
             .row(data-aos="fade-left")
                 .col-lg-2.col-7.p-4
-                  img(src="@/assets/curso/tema2/01.svg") 
+                  img.d-none.d-md-block(src='@/assets/curso/tema2/01.svg', alt='') 
                 .col-lg-9.col-22.p-4
                   h4 Fuente de potencia: 
                   p Puede ser conectado con una conexión capaz de suplir 400 mA en 5V.
-                .col-lg-11.col-22
+                .col-lg-11.col-7
                   img(src="@/assets/curso/tema2/linea.png") 
         
             .row(data-aos="fade-left")

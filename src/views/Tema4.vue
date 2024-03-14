@@ -95,7 +95,7 @@
           .container.tarjeta.color-contenedornaranja.p-4.p-md-5
             .col-lg-12.col-22.p-1
             .titulo-sexto.color-acento-contenido.mb-3
-              p.mb-0 #[b figura 2.]  Interacción protocolo Websocket
+              p.mb-0 #[b figura 5.]  Interacción protocolo <i>Websocket</i>
             img(src="@/assets/curso/tema4/figura2.svg")
 
 

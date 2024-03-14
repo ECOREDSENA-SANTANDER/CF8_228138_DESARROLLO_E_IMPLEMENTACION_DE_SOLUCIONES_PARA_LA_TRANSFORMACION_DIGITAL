@@ -10,27 +10,27 @@
       p El almacenamiento para los dispositivos y aplicaciones de internet de las cosas requiere nuevas tácticas y rumbos, como los que se relacionan a continuación:
 
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
-        .col-sm-6.col-xl-4.mb-3.mb-xl-0.vh-90
+        .col-sm-6.col-xl-4.mb-3.mb-xl-0.tarjetaflipcontenido2
           .tarjeta.tarjeta-slide.arriba.fondo-tarjetasflip(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5
                 h4 Dispositivos IoT de consumo
                 p Comenzaron la tendencia de IoT. Incluyen termostatos y abridores de puertas de garaje, pero también sistemas de cámaras en el hogar, dispositivos de TV, entre otros dispositivos domésticos inteligentes.
-              .tarjeta-slide__img.m-auto(:style="{'background-image': `url(${require('@/assets/curso/tema6/img001.png')})`}")
+              .tarjeta-slide__img.m-auto(:style="{'background-image': `url(${require('@/assets/curso/tema6/1.svg')})`}")
 
-        .col-sm-6.col-xl-4.mb-3.mb-xl-0.vh-90
+        .col-sm-6.col-xl-4.mb-3.mb-xl-0.tarjetaflipcontenido2
           .tarjeta.tarjeta-slide.abajo.fondo-tarjetasflip(@mouseover="indicadorTarjetaSlide = false")
             .tarjeta-slide__contenedor
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/img002.png')})`}")
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/2.svg')})`}")
               .tarjeta-slide__contenido.p-4.p-xl-5
                 h4 Dispositivos IoT empresariales
                 p Los datos no estructurados generados por los dispositivos IoT son un caso de uso perfecto para procedimientos de almacenamiento de objetos altamente escalables e, incluso, almacenamiento en la nube. La clave: garantizar capacidad de almacenamiento de datos y ancho de banda para el manejo de la velocidad requerida en los sistemas de almacenamiento IoT.
 
-        .col-sm-6.col-xl-4.mb-3.mb-xl-0.vh-90
+        .col-sm-6.col-xl-4.mb-3.mb-xl-0.tarjetaflipcontenido2
           .tarjeta.tarjeta-slide.derecha.fondo-tarjetasflip(@mouseover="indicadorTarjetaSlide = false")
             .tarjeta-slide__contenedor
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/img003.png')})`}")
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/3.svg')})`}")
               .tarjeta-slide__contenido.p-4.p-xl-5
                 h4 Dispositivos IoT de uso industrial
                 p Proveedores de la nube, como Microsoft con Azure IoT Edge, tienen productos para ayudar en estos casos de uso, pero no siempre funcionan cuando hay restricciones de ancho de banda o latencia.

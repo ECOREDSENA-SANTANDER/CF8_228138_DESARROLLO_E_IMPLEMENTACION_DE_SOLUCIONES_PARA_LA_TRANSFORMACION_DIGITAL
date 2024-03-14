@@ -5,7 +5,7 @@
       .titulo-principal.color-acento-botones
         .titulo-principal__numero
           span 1
-        h1 1. ¿Qué es IoT?
+        h1 ¿Qué es IoT?
      
       .row(data-aos="fade-left")
         .col-lg-4.col-12

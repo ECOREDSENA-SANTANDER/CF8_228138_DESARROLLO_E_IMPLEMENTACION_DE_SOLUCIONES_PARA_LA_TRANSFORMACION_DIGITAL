@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="609.911" height="357.984" viewBox="0 0 609.911 357.984">
-  <g id="Grupo_157982" data-name="Grupo 157982" transform="translate(-495 -2251)">
+  <g id="Grupo_157998" data-name="Grupo 157998" transform="translate(-495 -2251)">
     <g id="Grupo_157906" data-name="Grupo 157906" transform="translate(0 12)">
       <path id="Icon_awesome-long-arrow-alt-right" data-name="Icon awesome-long-arrow-alt-right" d="M222.074,15.188H.844A.844.844,0,0,0,0,16.031v3.938a.844.844,0,0,0,.844.844h221.23v3.239a1.688,1.688,0,0,0,2.881,1.193l6.051-6.051a1.687,1.687,0,0,0,0-2.386l-6.051-6.051a1.688,1.688,0,0,0-2.881,1.193Z" transform="translate(590.258 2365.484) rotate(90)" fill="#ff6148"/>
       <path id="Icon_awesome-long-arrow-alt-right-2" data-name="Icon awesome-long-arrow-alt-right" d="M330.074,15.188h-439.23a.844.844,0,0,0-.844.844v3.938a.844.844,0,0,0,.844.844h439.23v3.239a1.688,1.688,0,0,0,2.881,1.193l6.051-6.051a1.687,1.687,0,0,0,0-2.386l-6.051-6.051a1.688,1.688,0,0,0-2.881,1.193Z" transform="translate(684.25 2394.5)" fill="#ff6148"/>
@@ -8,12 +8,12 @@
       <path id="Icon_awesome-long-arrow-alt-right-5" data-name="Icon awesome-long-arrow-alt-right" d="M222.074,15.188H.844A.844.844,0,0,0,0,16.031v3.938a.844.844,0,0,0,.844.844h221.23v3.239a1.688,1.688,0,0,0,2.881,1.193l6.051-6.051a1.687,1.687,0,0,0,0-2.386l-6.051-6.051a1.688,1.688,0,0,0-2.881,1.193Z" transform="translate(1044.742 2365.484) rotate(90)" fill="#ff6148"/>
       <text id="Solicitud_HTTP" data-name="Solicitud HTTP" transform="translate(742 2386)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="2.773" y="17">Solicitud HTTP</tspan></text>
       <text id="Respuesta_HTTP" data-name="Respuesta HTTP" transform="translate(705 2468)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="34.777" y="17">Respuesta HTTP</tspan></text>
-      <text id="Protocolo_Websocket" data-name="Protocolo Websocket" transform="translate(705 2544)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="15.305" y="17">Protocolo Websocket</tspan></text>
-      <text id="_Hola_servidor_hablamos_Websocket_" data-name="&quot;Hola servidor, hablamos Websocket&quot;" transform="translate(601 2421)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="57.313" y="17">&quot;Hola servidor, hablamos Websocket&quot;</tspan></text>
+      <text id="Protocolo_Websocket" data-name="Protocolo Websocket" transform="translate(705 2544)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="16.039" y="17">Protocolo </tspan><tspan y="17" font-family="SegoeUI-BoldItalic, Segoe UI" font-style="italic">Websocket</tspan></text>
+      <text id="_Hola_servidor_hablamos_Websocket_" data-name="&quot;Hola servidor, hablamos Websocket&quot;" transform="translate(601 2421)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="58.047" y="17">&quot;Hola servidor, hablamos </tspan><tspan y="17" font-family="SegoeUI-BoldItalic, Segoe UI" font-style="italic">Websocket</tspan><tspan y="17">&quot;</tspan></text>
       <text id="OK" transform="translate(601 2503)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="188.242" y="17">OK</tspan></text>
       <g id="Grupo_157905" data-name="Grupo 157905" transform="translate(95)">
         <rect id="Rectángulo_45109" data-name="Rectángulo 45109" width="156.911" height="102.485" rx="10" transform="translate(400 2263)" fill="#fff"/>
-        <text id="Client" transform="translate(457 2332)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="17">Clien</tspan></text>
+        <text id="Client" transform="translate(457 2332)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="17">Client</tspan></text>
         <g id="Grupo_157896" data-name="Grupo 157896" transform="translate(0 836)">
           <rect id="Rectángulo_45160" data-name="Rectángulo 45160" width="75" height="75" transform="translate(441 1403)" fill="none"/>
           <g id="ordenador-portatil" transform="translate(448 1406)">
