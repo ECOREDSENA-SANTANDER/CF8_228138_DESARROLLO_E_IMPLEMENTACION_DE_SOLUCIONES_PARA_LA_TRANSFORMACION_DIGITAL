@@ -37,7 +37,7 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'origen e importancia',
+            titulo: 'Origen e importancia',
             hash: 't_1_1',
           },
           {
@@ -78,7 +78,7 @@ export default {
           {
             numero: '3.3',
             titulo: 'Computación en la nube',
-            hash: 't_1_3',
+            hash: 't_3_3',
           },
           {
             numero: '3.4',
@@ -220,7 +220,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Active Directory (AD):',
+      termino: 'Active Directory (AD)',
       significado:
         'base de datos y conjunto de servicios que conectan a los usuarios con los recursos de red que necesitan para realizar su trabajo.',
     },
@@ -240,12 +240,12 @@ export default {
         'Pacto o convenio, oral o escrito, entre partes que se obligan sobre materia o cosa determinada, y a cuyo cumplimiento pueden ser compelidas (Real Academia Española, s.f.)”.',
     },
     {
-      termino: 'Cloud computing:',
+      termino: 'Cloud computing',
       significado:
         'la computación en la nube, conocida también como servicios en la nube, consiste en el uso de una red de servidores remotos alojados en Internet para almacenar, administrar y procesar datos e información, en lugar de un servidor local o una computadora personal.',
     },
     {
-      termino: 'Ciberseguridad:',
+      termino: 'Ciberseguridad',
       significado:
         'conjunto de elementos articulados para la protección de la información alojados en dispositivos en el ciberespacio.',
     },
@@ -283,7 +283,7 @@ export default {
         'conjunto de herramientas y actividades que sirven para responder a una necesidad.',
     },
     {
-      termino: 'Servicio de TI:',
+      termino: 'Servicio de TI',
       significado:
         'conjunto de recursos tecnológicos disponibles para ser utilizados como apoyo operativo de las actividades de negocio dentro de una organización, que entregan valor a la misma, facilitando el cumplimiento de las actividades y objetivos.',
     },

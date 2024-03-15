@@ -18,7 +18,7 @@
           p.p-2 Los componentes del Raspberry Pi son:
           .container.color-contenedornaranja
             .row(data-aos="fade-left")
-                .col-lg-2.col-7.p-4
+                .col-lg-2.col-5.p-4
                   img.d-none.d-md-block(src='@/assets/curso/tema2/01.svg', alt='') 
                 .col-lg-9.col-22.p-4
                   h4 Fuente de potencia: 
@@ -27,7 +27,7 @@
                   img(src="@/assets/curso/tema2/linea.png") 
         
             .row(data-aos="fade-left")
-                .col-lg-2.col-7.p-4
+                .col-lg-2.col-5.p-4
                   img(src="@/assets/curso/tema2/02.svg") 
                 .col-lg-9.col-22.p-4
                   h4 Pantalla:
@@ -36,7 +36,7 @@
                   img(src="@/assets/curso/tema2/linea.png") 
             
             .row(data-aos="fade-left")
-                .col-lg-2.col-7.p-4
+                .col-lg-2.col-5.p-4
                   img(src="@/assets/curso/tema2/03.svg") 
                 .col-lg-9.col-22.p-4
                   h4 Teclado y mouse: 
@@ -45,7 +45,7 @@
                   img(src="@/assets/curso/tema2/linea.png")
         
             .row(data-aos="fade-left")
-                .col-lg-2.col-7.p-4.justify-content-center
+                .col-lg-2.col-5.p-4.justify-content-center
                   img(src="@/assets/curso/tema2/04.svg") 
                 .col-lg-10.col-22.p-4
                   h4 Tarjeta de memoria SD: 
@@ -53,7 +53,7 @@
       .row.p-3
       .container.color-contenedorpink
         .row.justify-content-center.align-items-center(data-aos="fade-left")
-          .col-lg-1.col-3
+          .col-lg-1.col-2
             img.p-1(src="@/assets/curso/tema2/fresa.png") 
           .col-lg-10.col-22.p-3
             h4 Ventajas de Raspberry Pi
@@ -180,7 +180,7 @@
 
       .container.color-contenedorpink.p-4
         .row(data-aos="fade-left")
-          .col-lg-2.col-22
+          .col-lg-2.col-6
             img.p-1(src="@/assets/curso/tema2/img6.png") 
           .col-lg-10.col-22.p-3
             h4 Ventajas de Arduino

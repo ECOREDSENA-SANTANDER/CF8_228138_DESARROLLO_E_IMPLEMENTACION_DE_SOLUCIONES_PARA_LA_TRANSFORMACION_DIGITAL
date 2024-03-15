@@ -8,9 +8,9 @@
         h1 Conectividad IoT
 
       .row(data-aos="fade-left")
-        .col-lg-4.col-22
+        .col-lg-4.col-22.py-2
           img(src="@/assets/curso/tema3/01.png")
-        .col-lg-8.col-22 
+        .col-lg-8.col-22-py-2
           p El IoT, o internet de las cosas, consiste en conectar a internet cualquier dispositivo teniendo en cuenta tres aspectos fundamentales: captura de datos (telemetría, geoposicionamiento), tratamiento de datos (Business Intelligence, Machine Learning…) y transformación del negocio.
           p Los dispositivos IoT generan grandes cantidades de datos digitales que contienen información de los usuarios, y las máquinas de análisis del Big Data y las plataformas en la nube pueden acceder a esos datos para generar información relevante y útil para los consumidores.
           p Para lo anterior se necesita una arquitectura global IoT que se compone de los siguientes componentes, trabajando conjuntamente:
@@ -59,6 +59,13 @@
             .p-4
               h2 Aplicaciones de control
               p Se emplea para enviar datos a los actuadores. 
+
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema3/cone6.png' alt='AvatarTop')
+          .tarjeta.fondo-slyderC
+            .p-4
+              h2 Aplicaciones de usuario
+              p Habilita a los usuarios el monitoreo de los datos y toma de decisiones sobre el control de dispositivos conectados. 
 
       Separador
       #t_3_1.titulo-segundo.color-acento-contenido
@@ -135,29 +142,29 @@
       p La estrategia comunicativa se basa en la publicación de mensajes específicos (topics) y la suscripción a esos mensajes. Estos mensajes son una trama de datos con un payload que contiene la información real para el servidor o para el resto de nodos. En una red de sensores esta información contiene valores medidos por los sensores, tales como temperatura, humedad, estado, etc.
 
       .row.justify-content-center.align-items-center
-        .col-10
-          .row(data-aos="fade-left").color-contenedorpink.p-2
-            .col-lg-1.col-6
-              img(src="@/assets/curso/tema3/tecnologia.svg")
-            .col-lg-10.col-22 
-              h5 El broker es el encargado de saber quién está en la red, qué mensajes puede enviar y envía mensajes de un lado a otro.<br><br>
+        .col-lg-10
+          .row(data-aos="fade-left").color-contenedorpink.p-4
+            .col-lg-1.col-3.py-2
+              img.px-1(src="@/assets/curso/tema3/tecnologia.svg")
+            .col-lg-11.col-12
+              h4.py-2 El <i>broker</i> es el encargado de saber quién está en la red, qué mensajes puede enviar y envía mensajes de un lado a otro.
       
       .row(data-aos="fade-left").p-4
         .col-lg-4.col-22
-          img(src="@/assets/curso/tema3/02.png")
+          img(src="@/assets/curso/tema3/02.png").py-2
         .col-lg-8.col-22 
           p Cuando existe una aplicación o un nodo que publicará un mensaje, no se necesita saber nada acerca del nodo que recibirá y consumirá el mensaje. Con el protocolo MQTT la única dirección y puerto que se necesitan conocer es la del broker de mensajes.
-          p Quien publica y quien recibe no necesitan estar conectados a la vez, porque el broker tiene la capacidad de almacenar mensajes, aunque en la mayoría de los casos los mensajes se consumen en tiempo real, generalmente sucede con clientes que no están sincrónicamente conectados. 
-          p En resumen, el protocolo MQTT se basa en que alguien publica un mensaje con el identificador de un topic específico, el broker distribuye el mensaje a todos los clientes (aplicaciones o dispositivos) que están suscritos a ese topic y esos clientes reciben y consumen los datos de esos mensajes.
+          p #[b Quien publica y quien recibe no necesitan estar conectados a la vez, porque el broker tiene la capacidad de almacenar mensajes,] aunque en la mayoría de los casos los mensajes se consumen en tiempo real, generalmente sucede con clientes que no están sincrónicamente conectados. 
+          p En resumen, #[b el protocolo MQTT se basa en que alguien publica un mensaje con el identificador de un topic específico,] el broker distribuye el mensaje a todos los clientes (aplicaciones o dispositivos) que están suscritos a ese topic y esos clientes reciben y consumen los datos de esos mensajes.
           p MQTT se usa actualmente en autos, casas y ciudades inteligentes, así como en fábricas, productos de consumo, etcétera.
        
       .row.justify-content-center.align-items-center
-        .col-10
-          .row(data-aos="fade-left").color-contenedorpink.p-2
-            .col-lg-1.col-6
-              img(src="@/assets/curso/tema3/cel.svg")
-            .col-lg-11.col-22 
-              h5 En conclusión, se puede desarrollar una aplicación que envía información, sin necesidad de saber qué usuario o aplicación la va a utilizar.<br><br>
+        .col-lg-10
+          .row(data-aos="fade-left").color-contenedorpink.p-4
+            .col-lg-1.col-3.py-2
+              img.m-auto(src="@/assets/curso/tema3/cel.svg")
+            .col-lg-11.col-12
+              h4.m-auto.py-2 En conclusión, se puede desarrollar una aplicación que envía información, sin necesidad de saber qué usuario o aplicación la va a utilizar.<br><br>
 
       Separador
       #t_3_3.titulo-segundo.color-acento-contenido
@@ -242,22 +249,46 @@
                 p Ofrece herramientas que posibilitan la conexión de dispositivos como procesamiento, almacenamiento y análisis de datos en la nube. 
 
 
-      .row.justify-content-center
-        .col-sm-6.col-lg-5.mb-4.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/tema1/04.png' alt='')
-            .tarjeta.color-contenedornaranja2
-              .p-4
-                h4 Capa de transporte 
-                p Encargada de transferir los datos de sensores desde la capa de percepción a la capa de procesamiento y viceversa a través de redes tales como Wireless, 3G, LAN , Bluetooth, RFID Y NFC.
+      .row(data-aos="fade-left").p-2
+        .col-lg-12
+          .row
+            .col-sm-6.col-lg-6.mb-4.mb-lg-0
+              .tarjeta-avatar
+                img(src='@/assets/curso/tema3/001.png' alt='left')
+                .tarjeta.color-contenedornaranja2
+                  .p-4
+                    h4 Nodo cliente
+                    p Es la capa de percepción que permite obtener o enviar datos al mundo físico o virtual mediante sensores o actuadores, sensores como temperatura, humedad, estado de un dispositivo, sensores lumínicos, etc.
+            .col-sm-6.col-lg-6.mb-4.mb-lg-0
+              .tarjeta-avatar
+                img(src='@/assets/curso/tema3/002.png' alt='AvatarTop')
+                .tarjeta.color-contenedornaranja2 
+                  .p-4
+                    h4 Broker MQTT
+                    p Es un elemento  primordial para realizar el envío de los datos entre los clientes, debe estar en constante funcionamiento y ser visible a red externa. Entre muchos brokers públicos existen dos bastante usados y disponibles:
+                    p #[b • Mosquito Broker:] servicio gratuito destinado a la realización de pruebas.
+                    p #[b • Cloud MQTT:] servicio de pago y asegura disponibilidad del servicio.
+      
+      .row(data-aos="fade-left").p-2
+        .col-lg-12
+          .row
+            .col-sm-6.col-lg-6.mb-4.mb-lg-0
+              .tarjeta-avatar
+                img(src='@/assets/curso/tema3/003.png' alt='AvatarTop')
+                .tarjeta.color-contenedornaranja2 
+                  .p-4
+                    h4 Nodo servidor
+                    p Este nodo cuenta  con funciones de servidor web y base de datos y como cliente MQTT suscrito a los topics de interés y almacena información en la base de datos.
 
-        .col-sm-6.col-lg-5.mb-4.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/tema1/05.png' alt='AvatarTop')
-            .tarjeta.color-contenedornaranja2 
-              .p-4
-                h4 Capa de procesamiento o capa middleware
-                p Almacena, analiza y procesa grandes cantidades de datos que provienen de la capa de transporte
+            .col-sm-6.col-lg-6.mb-4.mb-lg-0
+              .tarjeta-avatar
+                img(src='@/assets/curso/tema3/004.png' alt='AvatarTop')
+                .tarjeta.color-contenedornaranja2 
+                  .p-4
+                    h4 Usuarios finales
+                    p Cualquier usuario del servicio que disponga de un terminal con acceso a internet podrá acceder a la aplicación web y visualizar la información proveniente de los sensores de manera sencilla.
+                   
+      
       Separador
       #t_3_5.titulo-segundo.color-acento-contenido
         h2 3.5 Adquisición de datos en la nube
@@ -315,7 +346,7 @@
           .container.tarjeta.color-contenedornaranja.p-4.p-md-5
             .col-lg-12.col-22.p-1
             .titulo-sexto.color-acento-contenido.mb-3
-              p.mb-0 #[b figura 2.] Proceso del Big Data
+              p.mb-0 #[b Figura 2.] Proceso del Big Data
             img(src="@/assets/curso/tema3/ultimo.svg")
   </template>
 

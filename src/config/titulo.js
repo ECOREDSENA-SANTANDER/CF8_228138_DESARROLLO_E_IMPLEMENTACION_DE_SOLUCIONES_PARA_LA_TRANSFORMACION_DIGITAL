@@ -1,1 +1,1 @@
-module.exports = 'Análisis y valoración de riesgos de ciberseguridad'
+module.exports = 'Arquitectura y componentes de IoT'

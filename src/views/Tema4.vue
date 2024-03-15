@@ -18,14 +18,14 @@
               p Cable coaxial o UTP. Cable de fibra óptica. Proporciona los medios mecánicos y eléctricos funcionales para activar, mantener o desactivar conexiones.
         
         .tarjeta-avatar
-          img(src='@/assets/curso/tema4/img02.png' alt='AvatarTop')
+          img(src='@/assets/curso/tema4/img03.png' alt='AvatarTop')
           .tarjeta.fondo-slyderC
             .p-4
               h4 Capa 2 - Nivel de enlace de datos
               p Responsable de la transferencia de la información. Permite la comunicación entre la capa de red y la capa física por medio de la Ethernet que viene con cada computadora.
         
         .tarjeta-avatar
-          img(src='@/assets/curso/tema4/img03.png' alt='AvatarTop')
+          img(src='@/assets/curso/tema4/img02.png' alt='AvatarTop')
           .tarjeta.fondo-slyderC
             .p-4
               h4 Capa 3 - Nivel de red
@@ -75,7 +75,7 @@
             .container.tarjeta.color-contenedornaranja.p-4.p-md-5
               .col-lg-12.col-22.p-1
               .titulo-sexto.color-acento-contenido.mb-3
-                p.mb-0 #[b figura 1.] Funcionamiento del protocolo HTTP
+                p.mb-0 #[b Figura 1.] Funcionamiento del protocolo HTTP
               img(src="@/assets/curso/tema4/figura1.svg")
           p Es importante recordar que HTTP se apoya en los protocolos de red y transporte, está desarrollado para ser leído e interpretado por los usuarios, es fácil de usar y se le permite avanzar con nuevas y futuras aplicaciones de internet.
  
@@ -95,7 +95,7 @@
           .container.tarjeta.color-contenedornaranja.p-4.p-md-5
             .col-lg-12.col-22.p-1
             .titulo-sexto.color-acento-contenido.mb-3
-              p.mb-0 #[b figura 5.]  Interacción protocolo <i>Websocket</i>
+              p.mb-0 #[b Figura 5.]  Interacción protocolo <i>Websocket</i>
             img(src="@/assets/curso/tema4/figura2.svg")
 
 

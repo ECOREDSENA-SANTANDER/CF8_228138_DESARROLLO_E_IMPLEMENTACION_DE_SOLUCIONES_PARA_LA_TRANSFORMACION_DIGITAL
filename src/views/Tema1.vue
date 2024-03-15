@@ -11,7 +11,7 @@
         .col-lg-4.col-12
           img(src="@/assets/curso/tema1/titulo1.png")
         .col-lg-8.col-22
-          p El internet de las cosas <b>hace referencia a la interconexión de los dispositivos y objetos con otros mediante redes como internet, empleando sensores y actuadores integrados y variedad de elementos electrónicos.</b> La interconexión de estos dispositivos con microprocesadores y la conexión de la red, permite obtener, tratar y transferir datos en forma automática; todo objeto en el mundo puede ser una fuente de datos.
+          p.py-2 El internet de las cosas <b>hace referencia a la interconexión de los dispositivos y objetos con otros mediante redes como internet, empleando sensores y actuadores integrados y variedad de elementos electrónicos.</b> La interconexión de estos dispositivos con microprocesadores y la conexión de la red, permite obtener, tratar y transferir datos en forma automática; todo objeto en el mundo puede ser una fuente de datos.
           p A grandes rasgos, podemos decir que el internet de las cosas se conforma por tres sectores: conectividad, hardware y servicios, y el sector de servicios es un campo fértil por sembrar: <b>desarrollo web en la nube, ingeniería de datos, machine learning, inteligencia artificial, big data.</b>
       
       Separador
@@ -112,22 +112,22 @@
           p En la siguiente figura se puede observar una comparación entre cada una de estas arquitecturas:
 
       .row.justify-content-center.align-items-center
-          .col-lg-10.col-22.p-3
+          .col-lg-8.col-22.p-2
+            .titulo-sexto.color-acento-contenido.mb-3
+              p.mb-0 #[b Figura 1.] Capas de arquitectura.
             .container.tarjeta.color-contenedornaranja.p-4.p-md-5
-              .col-lg-12.col-22.p-1
-              .titulo-sexto.color-acento-contenido.mb-3
-                p.mb-0 #[b figura 1.] Capas de arquitectura.
-              img(src="@/assets/curso/tema1/01.svg")
+              .col-lg-12.col-12
+                img(src="@/assets/curso/tema1/01.svg")
       
       
       Separador
-      #t_1_2.titulo-segundo.color-acento-contenido
+      #t_1_3.titulo-segundo.color-acento-contenido
         h2 1.3 Componentes IoT
       .row(data-aos="fade-left")
         .col-lg-4.col-22
          img(src="@/assets/curso/tema1/1.3.png")
         .col-lg-8.col-22
-          p Un sistema IoT no se puede llevar a cabo o es imposible sin el uso de sensores para recoger datos del medio ambiente, estos son pequeños, de bajo costo y tienen un bajo consumo de energía, 
+          p.py-2 Un sistema IoT no se puede llevar a cabo o es imposible sin el uso de sensores para recoger datos del medio ambiente, estos son pequeños, de bajo costo y tienen un bajo consumo de energía, 
           p La información recogida por los sensores es convertida a información digital para así poder tratarla, almacenarla y enviarla a otros dispositivos. 
           p Los sensores son dispositivos electrónicos capaces de medir magnitudes físicas o químicas y transformarlas en señales eléctricas y se clasifican en:
 
@@ -155,7 +155,7 @@
         
         .col-lg-4
           h4.subrayado-naranja.p-2 Los actuadores tienen dos clasificaciones:
-        .col-lg-12 
+        .col-lg-12.p-4
           p <b>1. Según la fuente de energía:</b> se requieren para generar movimiento.
 
       .row.justify-content-center.align-items-center
@@ -181,8 +181,8 @@
                   img(src="@/assets/curso/tema1/a3.png")
 
             
-      .row(data-aos="fade-left") 
-        .col-lg-12 
+      .row(data-aos="fade-left")
+        .col-lg-12.p-4
           p <b>1. Según la fuente de energía:</b> se requieren para generar movimiento.
 
       .row.justify-content-center.align-items-center
