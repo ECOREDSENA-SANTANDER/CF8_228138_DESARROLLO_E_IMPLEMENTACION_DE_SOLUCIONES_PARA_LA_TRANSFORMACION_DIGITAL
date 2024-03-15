@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="925" height="85" viewBox="0 0 925 85">
+  <g id="Grupo_157987" data-name="Grupo 157987" transform="translate(-338 -2949)">
+    <g id="Grupo_157806" data-name="Grupo 157806" transform="translate(53 163)">
+      <rect id="Rectángulo_35269" data-name="Rectángulo 35269" width="253" height="73" rx="10" transform="translate(327 2792)" fill="#ffb476"/>
+      <rect id="Rectángulo_35270" data-name="Rectángulo 35270" width="253" height="73" rx="10" transform="translate(642 2792)" fill="#ffb476"/>
+      <rect id="Rectángulo_35271" data-name="Rectángulo 35271" width="253" height="73" rx="10" transform="translate(957 2792)" fill="#ffb476"/>
+      <text id="MQTT" transform="translate(451 2836)" fill="#12263f" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="-27.22" y="0">MQTT</tspan></text>
+      <text id="TCP" transform="translate(766 2836)" fill="#12263f" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="-17.297" y="0">TCP</tspan></text>
+      <text id="IP" transform="translate(1081 2836)" fill="#12263f" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="-9.04" y="0">IP</tspan></text>
+      <circle id="Elipse_4403" data-name="Elipse 4403" cx="42.5" cy="42.5" r="42.5" transform="translate(285 2786)" fill="#ff6148"/>
+      <circle id="Elipse_4404" data-name="Elipse 4404" cx="42.5" cy="42.5" r="42.5" transform="translate(600 2786)" fill="#ff6148"/>
+      <circle id="Elipse_4405" data-name="Elipse 4405" cx="42.5" cy="42.5" r="42.5" transform="translate(915 2786)" fill="#ff6148"/>
+      <text id="OSI_5-7" data-name="OSI
+5-7" transform="translate(327 2824)" fill="#12263f" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="-15.17" y="0">OSI</tspan><tspan x="-14.449" y="21">5-7</tspan></text>
+      <text id="Capa_OSI_4" data-name="Capa
+OSI 4" transform="translate(642 2824)" fill="#12263f" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="-21.546" y="0">Capa</tspan><tspan x="-23.256" y="21">OSI 4</tspan></text>
+      <text id="Capa_OSI_3" data-name="Capa
+OSI 3" transform="translate(958 2824)" fill="#12263f" font-size="18" font-family="SegoeUIBlack, Segoe UI"><tspan x="-21.546" y="0">Capa</tspan><tspan x="-23.063" y="21">OSI 3</tspan></text>
+    </g>
+  </g>
+</svg>
