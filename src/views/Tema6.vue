@@ -50,7 +50,7 @@
       
       separador 
       #t_6_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-        h2 6.2 Tecnologías <i>iscsi, fiber channel, sas y arreglos raid</i>
+        h2 6.2 Tecnologías #[em iscsi, fiber channel, sas y arreglos raid]
 
 
       .container.color-contenedorpink.p-2.p-md-5 

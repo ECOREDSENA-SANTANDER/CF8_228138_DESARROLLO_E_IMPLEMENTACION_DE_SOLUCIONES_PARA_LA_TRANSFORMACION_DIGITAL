@@ -203,7 +203,7 @@
                 p En este modelo se proporciona a las empresas servidores, almacenamiento, redes y centros de datos listos para su uso; el proveedor se encarga de la comunicación, el procesamiento o el almacenamiento.
       Separador
       #t_3_4.titulo-segundo.color-acento-contenido
-        h2 3.4 Pasarelas de <i>cloud</i> para IoT 
+        h2 3.4 Pasarelas de #[em cloud] para IoT 
       p Debido a la necesidad de gestionar de forma ágil y eficiente la alta cantidad de datos que generan los dispositivos IoT, han nacido plataformas de computación en la nube orientadas a IoT. Ahora se ampliará la información al respecto.
       
       .row.justify-content-center.align-items-center
@@ -213,39 +213,39 @@
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema3/acordion01.png', alt='Pruebaaaa')
-              .col-md-6.mb-4.mb-md-0
+              .col-md-8.mb-8.mb-md-0
                 p Plataforma multipropósito, flexible de código abierto y lista para producción y establecer soluciones de IoT de extremo a extremo, aplicaciones conectadas y dispositivos inteligentes, ofrece control y supervisión de dispositivos en tiempo real, recopila y analiza datos de sensores, gestiona cantidad infinita de dispositivos en tiempo real, admite uso de protocolos abiertos como MQTT y CoAP.
             
             .row(titulo="OpenIoT")
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema3/acordion02.png', alt='Pruebaaaa')
-              .col-md-6.mb-4.mb-md-0
+              .col-md-8.mb-4.mb-md-0
                 p Plataforma middleware de código abierto que unifica IoT con los servicios de computación en la nube, proporciona servicios de registro, implementación y descubrimiento de sensores, monitoreo de dispositivos, visualización de información, desarrollo de aplicaciones sencillas.
             
             .row(titulo="ThingSpeak")
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema3/acordion03.png', alt='Pruebaaaa')
-              .col-md-6.mb-4.mb-md-0
+              .col-md-8.mb-4.mb-md-0
                 p Plataforma de código abierto que permite captura de datos de sensores, almacenamiento en la nube, visualización y análisis de los mismos, con los datos recogidos crea alertas y se comunica a través de servicios de la red, como Twitter, correo, etc.
             .row(titulo="AWS IoT")
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema3/acordion04.png', alt='Pruebaaaa')
-              .col-md-6.mb-4.mb-md-0
+              .col-md-8.mb-4.mb-md-0
                 p Servicio no opensource para IoT de Amazon, proporciona gateway de dispositivos, agente de mensajes MQTT, y ofrece servicios de seguridad e identidad, registro de dispositivos.
             .row(titulo="AZURE IoT")
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema3/acordion05.png', alt='Pruebaaaa')
-              .col-md-6.mb-4.mb-md-0
+              .col-md-8.mb-4.mb-md-0
                 p Plataforma creada por Microsoft que ofrece a los usuarios la creación de soluciones IoT acordes con sus necesidades.        
             .row(titulo="Google Cloud IoT")
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema3/acordion06.png', alt='Pruebaaaa')
-              .col-md-6.mb-4.mb-md-0
+              .col-md-8.mb-4.mb-md-0
                 p Ofrece herramientas que posibilitan la conexión de dispositivos como procesamiento, almacenamiento y análisis de datos en la nube. 
 
 

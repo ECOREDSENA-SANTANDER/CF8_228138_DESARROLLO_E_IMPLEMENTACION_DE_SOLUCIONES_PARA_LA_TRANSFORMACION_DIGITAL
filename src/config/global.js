@@ -367,20 +367,31 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '',
-          cargo: 'Instructor',
-          centro: '',
-        },
-        {
-          nombre: '',
-          cargo: 'Instructor',
-          centro: '',
+          nombre: 'Cesar Antonio Villamizar Nuñez',
+          cargo: 'Experto temático',
+          centro: 'Sena - Norte de Santander Centro - CIES',
         },
         {
           nombre: 'Maribel Avellaneda Nieves',
-          cargo: 'Diseñador Instruccional',
+          cargo: 'Diseñadora Instruccional',
           centro:
             'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesora Metodológica',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Rafael Neftali Lizcano Reyes',
+          cargo: 'Responsable Equipo desarrollo curricular',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepulveda',
+          cargo: 'Correción de estilo',
+          centro: 'Regional Distrito Capital -Centro de Diseño y Metrología',
         },
       ],
     },

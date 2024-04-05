@@ -64,9 +64,9 @@
         h2 4.1 HTTP
 
       .row(data-aos="fade-left")
-        .col-lg-4.col-22
-          img(src="@/assets/curso/tema4/http.png")
-        .col-lg-8.col-22 
+        .col-lg-4.col-11
+          img(src='@/assets/curso/tema4/http.png', alt='') 
+        .col-lg-8.col-22.py-3
           p El protocolo HTTP, de su sigla en inglés Hypertext Transfer Protocol, permite realizar una petición de datos y recursos, como, por ejemplo, documentos HTML. Este protocolo es la base de cualquier intercambio de datos en la en la WWW (World Wide Web) que permite hablar un mismo idioma a la hora de transmitir información. El funcionamiento del HTTP se basa en un esquema de petición-respuesta, como se representa en la siguiente figura, donde cada petición individual es remitida a un servidor, que se encarga de gestionar y responder. Entre cada petición y respuesta, hay varios intermediarios, normalmente denominados proxy.
   
 
@@ -76,13 +76,13 @@
               .col-lg-12.col-22.p-1
               .titulo-sexto.color-acento-contenido.mb-3
                 p.mb-0 #[b Figura 1.] Funcionamiento del protocolo HTTP
-              img(src="@/assets/curso/tema4/figura1.svg")
+              img.d-none.d-md-block(src='@/assets/curso/tema4/figura1.svg', alt='') 
+              img.d-block.d-md-none(src='@/assets/curso/tema4/http2.svg', alt='')
           p Es importante recordar que HTTP se apoya en los protocolos de red y transporte, está desarrollado para ser leído e interpretado por los usuarios, es fácil de usar y se le permite avanzar con nuevas y futuras aplicaciones de internet.
  
       Separador
       #t_4_2.titulo-segundo.color-acento-contenido
-        h2 4.2 <i>WEBSOCKETS</i>
-
+        h2 4.2 #[em WEBSOCKET]
       .row(data-aos="fade-left")
         .col-lg-8.col-22 
           p Websocket es una tecnología avanzada que ace posible generar una sesión de comunicación de intercambio entre el navegador del usuario y un servidor. Con esta API, se puede remitir mensajes a un servidor y recibir contestaciones vigiladas por eventos, sin tener que consultar al servidor para una respuesta. Compatible con todos los navegadores, las peticiones y respuestas se envían en Websocket donde establecen una comunicación en el lenguaje del mismo protocolo.<br>
@@ -95,8 +95,9 @@
           .container.tarjeta.color-contenedornaranja.p-4.p-md-5
             .col-lg-12.col-22.p-1
             .titulo-sexto.color-acento-contenido.mb-3
-              p.mb-0 #[b Figura 5.]  Interacción protocolo <i>Websocket</i>
-            img(src="@/assets/curso/tema4/figura2.svg")
+              p.mb-0 #[b Figura 5.]  Interacción protocolo #[em Websocket]
+            img.d-none.d-md-block(src="@/assets/curso/tema4/figura2.svg", alt='')
+            img.d-block.d-md-none(src="@/assets/curso/tema4/figura2cel.svg", alt='')
 
 
       Separador
@@ -106,7 +107,7 @@
       .row(data-aos="fade-left")
         .col-lg-4.col-22
           img(src="@/assets/curso/tema4/json.png")
-        .col-lg-8.col-22 
+        .col-lg-8.col-22.py-2
           p JSON, acrónimo de JavaScript Object Notation, (Notación de objetos de JavaScript) es una sintaxis de serialización de datos jerárquica concisa compatible con todos los navegadores modernos.<br><br> Su formato lo convierte en una forma liviana de representar objetos, sin dejar de ser legible por humanos, por lo que ha reemplazado la notación XML en muchas plataformas.
   </template>
 

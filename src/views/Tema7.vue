@@ -10,20 +10,69 @@
       .row(data-aos="fade-right")
         .col-lg-12-col-12
           p Los puertos de comunicación son las interfaces que se utilizan en las aplicaciones para conectarse con otros elementos, ya sean <i>hardware o software,</i> para enviar y recibir paquetes de datos. En cierta manera, es como el buzón de correos aplicado a un ordenador.<br><br>Las principales tecnologías de comunicaciones utilizadas en IoT, son:
+  
+      .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left").color-contenedornaranja
+        .col-sm-6.col-lg-2.mb-4.mb-lg-0
+          .tarjeta.p-4
+            .row.justify-content-center.mb-3
+              .col-10
+                img(src="@/assets/curso/tema7/001.svg", alt="alt")
+
+            h4.text-center RFID:
+            p.text-center Radio Frequency Identification [12]
+
+        .col-sm-6.col-lg-2.mb-4.mb-lg-0
+          .tarjeta.p-4
+            .row.justify-content-center.mb-3
+              .col-10
+                img(src="@/assets/curso/tema7/002.svg", alt="alt")
+
+            h4.text-center WSN:
+            p.text-center Wireless Sensor Network [13]
+
+            
+        .col-sm-6.col-lg-2.mb-4.mb-lg-0
+          .tarjeta.p-4
+            .row.justify-content-center.mb-3
+              .col-10
+                img(src="@/assets/curso/tema7/003.svg", alt="alt")
+
+            h4.text-center NFC:
+            p.text-center Near Field Communication[14]
+
+            
+        .col-sm-6.col-lg-2.mb-4.mb-lg-0
+          .tarjeta.p-4
+            .row.justify-content-center.mb-3
+              .col-10
+                img(src="@/assets/curso/tema7/004.svg", alt="alt")
+
+            h4.text-center WiFi:
+            p.text-center estándar IEEE 802.11n
+
+            
+        .col-sm-6.col-lg-2.mb-4.mb-lg-0
+          .tarjeta.p-4
+            .row.justify-content-center.mb-3
+              .col-10
+                img(src="@/assets/curso/tema7/005.svg", alt="alt")
+
+            h4.text-center Bluetooth
+            p.text-center <br><br>
+
       .row 
-        .col-lg-8-col-22
-          img(src="@/assets/curso/tema7/img01.svg", alt="alt")
-          p <br>En general, podría decirse que están siendo utilizadas por diferentes protocolos de tecnologías de comunicaciones, dependiendo de la aplicación y su arquitectura técnica de alcance, manejo de datos, seguridad, consumo de energía, vida útil de la batería, etc.
- 
-          Separador
+        .col-lg-12-col-22
+          p En general, podría decirse que están siendo utilizadas por diferentes protocolos de tecnologías de comunicaciones, dependiendo de la aplicación y su arquitectura técnica de alcance, manejo de datos, seguridad, consumo de energía, vida útil de la batería, etc.
+
+      Separador
       #t_7_1.titulo-segundo.color-acento-contenido
         h2 7.1 Analógicos y digitales
         
       .row(data-aos="fade-left")
         .col-lg-4.col-22
-          img(src="@/assets/curso/tema7/7.2.png")
+          img(src="@/assets/curso/tema7/7.2.png", alt="alt")
         .col-lg-8.col-22 
-          p Algunos cálculos se pueden medir de forma “analógica”, otros en forma “digital”.<br><br>Los sistemas digitales tienen una aceptación significativa en la tecnología moderna, fundamentalmente en la computación y sistemas de control automático. La tecnología digital hace referencia a “cantidades discretas”, en relación a magnitudes o valores como la distancia y la temperatura o la velocidad, que podrían variar muy lento o muy rápido como un sistema de audio.<br><br>En la tecnología analógica es muy difícil almacenar, manipular, comparar, calcular y recuperar información con exactitud cuando ésta ha sido guardada.<br><br>Por lo anterior, la mayor parte de proyectos IoT se basan en tecnología digital.
+          p.py-3 Algunos cálculos se pueden medir de forma “analógica”, otros en forma “digital”.<br><br>Los sistemas digitales tienen una aceptación significativa en la tecnología moderna, fundamentalmente en la computación y sistemas de control automático. La tecnología digital hace referencia a “cantidades discretas”, en relación a magnitudes o valores como la distancia y la temperatura o la velocidad, que podrían variar muy lento o muy rápido como un sistema de audio.<br><br>En la tecnología analógica es muy difícil almacenar, manipular, comparar, calcular y recuperar información con exactitud cuando ésta ha sido guardada.<br><br>Por lo anterior, la mayor parte de proyectos IoT se basan en tecnología digital.
 
 
       Separador
@@ -33,7 +82,7 @@
       .row(data-aos="fade-right")
         .col-lg-4.col-22
           img(src="@/assets/curso/tema7/7.1.png")
-        .col-lg-8.col-22 
+        .col-lg-8.col-22.py-2 
           p La programación en bloques permite aprender la lógica de programación desde niños, mediante el uso de conexiones sencillas en forma de bloques. Cada bloque tiene una instrucción, condición o evento diferente. Al programar el paso a paso de una función, se deben encajar los bloques de forma ordenada y lógica, de modo que al juntarlos encajan como piezas de lego o rompecabezas, creando pilas o cadenas secuenciales de bloques, es decir, pequeños programas. Entre los principales objetivos de la programación por bloques está el que sea muy simple e intuitiva, ya que no requiere de que sepamos escribir código<br><br>Existen múltiples herramientas y plataformas para incentivar el aprendizaje y volver más funcional la programación por bloques. A continuación, se destacan algunas de ellas:
 
       .row(data-aos="fade-right")

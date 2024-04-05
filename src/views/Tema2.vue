@@ -5,7 +5,7 @@
       .titulo-principal.color-acento-botones
         .titulo-principal__numero
           span 2
-        h1 <i>Raspberry Pi y Arduino</i>
+        h1 #[em Raspberry Pi y Arduino]
   
       p.p-2 A continuación conoceremos qué son el Raspberry Pi y el Arduino, elementos importantes a la hora de hablar de Internet de las Cosas.
 
@@ -14,7 +14,7 @@
           img(src="@/assets/curso/tema2/img01.jpg").p-1
           img(src="@/assets/curso/tema2/img02.jpg").p-1
         .col-lg-7.col-22 
-          h5.p-2 <i>El Raspberry Pi</i> es un minicomputador de bajo costo que puede ser conectado a un monitor o televisión.
+          h5.p-2 #[em El Raspberry Pi] es un minicomputador de bajo costo que puede ser conectado a un monitor o televisión.
           p.p-2 Los componentes del Raspberry Pi son:
           .container.color-contenedornaranja
             .row(data-aos="fade-left")
