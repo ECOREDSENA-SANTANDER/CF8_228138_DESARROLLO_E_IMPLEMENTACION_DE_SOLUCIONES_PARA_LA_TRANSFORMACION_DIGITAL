@@ -223,14 +223,14 @@
 
 
 
-      .row(data-aos="-left")
+      .row(data-aos="-left").py-3
         .col-lg-12.col-22
             p Y los actuadores activan un determinado proceso utilizando señales eléctricas. Estos reciben una señal eléctrica y la transforman en movimiento en el ambiente Internet de las cosas; los actuadores se usan siempre que sea necesario encender o apagar otro dispositivo, aplicando una fuerza. 
         
         .col-lg-4
           h4.subrayado-naranja.p-2 Los actuadores tienen dos clasificaciones:
         .col-lg-12.p-4
-          p # [b 1. Según la fuente de energía:] se requieren para generar movimiento.
+          p #[b 1. Según la fuente de energía:] se requieren para generar movimiento.
 
       .row.justify-content-center.align-items-center
         .col-10
