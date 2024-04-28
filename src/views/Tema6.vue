@@ -44,9 +44,10 @@
       .col-lg-3.col-22
           h4.subrayado-naranja.p-1 Selección de sensores para IoT: 
   
-      .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
+      .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left").fondo6
         .col-lg-10.col-12
-          img(src="@/assets/curso/tema6/6.1.png") 
+          img.d-none.d-md-block.py-4(src='@/assets/curso/tema6/6.1.svg', alt='') 
+          img.d-block.d-md-none(src='@/assets/curso/tema6/6.1.1.svg', alt='')
       
       separador 
       #t_6_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")

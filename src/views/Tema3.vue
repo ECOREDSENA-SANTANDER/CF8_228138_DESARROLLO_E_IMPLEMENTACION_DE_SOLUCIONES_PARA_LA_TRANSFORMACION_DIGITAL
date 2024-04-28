@@ -61,7 +61,7 @@
               p Se emplea para enviar datos a los actuadores. 
 
         .tarjeta-avatar
-          img(src='@/assets/curso/tema3/cone6.png' alt='AvatarTop')
+          img(src='@/assets/curso/tema3/cone7.png' alt='AvatarTop')
           .tarjeta.fondo-slyderC
             .p-4
               h2 Aplicaciones de usuario
@@ -133,9 +133,9 @@
           .container.tarjeta.color-contenedornaranja.p-4.p-md-5
             .col-lg-12.col-22.p-1
             .titulo-sexto.color-acento-contenido.mb-3
-              p.mb-0 #[b figura 1.] Protocolo MQTT
-              img.d-none.d-md-block(src='@/assets/curso/tema3/3.2.svg', alt='') 
-              img.d-block.d-md-none(src='@/assets/curso/tema3/3.2mobile.svg', alt='')
+              p.mb-0 #[b figura 2.] Protocolo MQTT
+            img.d-none.d-md-block(src='@/assets/curso/tema3/3.2.svg', alt='') 
+            img.d-block.d-md-none(src='@/assets/curso/tema3/3.2mobile.svg', alt='')
 
 
 

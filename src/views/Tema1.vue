@@ -147,7 +147,7 @@
                 .col-xl-4.mb-4.py-3
                   img(src='@/assets/curso/tema1/001.png', alt='Texto que describa la imagen')
                 .col-xl-8.py-4
-                  p Los sensores son seleccionados de acuerdo al requerimiento a implementar, tales como procesos de control industrial, medidas y automatización, automóviles, electrónica de consumo, productos médicos.
+                  p #[b Sensores digitales:] la salida del sensor es binaria o digital la cual puede ser procesada directamente a través de controlador o procesador.
 
               .row
                 .col-xl-4.mb-4
@@ -174,7 +174,7 @@
                 .col-xl-4.mb-4
                   img(src='@/assets/curso/tema1/006.png', alt='Texto que describa la imagen')
                 .col-xl-8.py-3
-                   p #[Sensores de imágenes:] usados ampliamente en vigilancia, biometría y gestión de tráfico.
+                   p #[b Sensores de imágenes:] usados ampliamente en vigilancia, biometría y gestión de tráfico.
 
         .tarjeta.p-4.color-contenedorpink(titulo="4. Basadas en propiedades")
           h4 4. Basadas en propiedades
