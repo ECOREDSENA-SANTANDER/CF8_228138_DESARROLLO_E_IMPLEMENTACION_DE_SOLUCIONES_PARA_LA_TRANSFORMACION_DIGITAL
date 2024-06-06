@@ -33,7 +33,7 @@
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/3.svg')})`}")
               .tarjeta-slide__contenido.p-4.p-xl-5
                 h4 Dispositivos IoT de uso industrial
-                p Proveedores de la nube, como Microsoft con Azure IoT Edge, tienen productos para ayudar en estos casos de uso, pero no siempre funcionan cuando hay restricciones de ancho de banda o latencia.
+                p Proveedores de la nube, como #[em Microsoft] con #[em Azure IoT Edge], tienen productos para ayudar en estos casos de uso, pero no siempre funcionan cuando hay restricciones de ancho de banda o latencia.
 
       separador 
       #t_6_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -60,28 +60,28 @@
           .col-lg-3.col-22.p-3
             img(src="@/assets/curso/tema6/6.2.1.png") 
           .col-lg-9.col-22.p-3
-            p El ISCSI es una forma sencilla de gestionar el almacenamiento de archivos, bases de datos o discos duros en un almacenamiento centralizado en servidor, que permite el transporte de datos a nivel de bloque entre el iniciador Iscsi y el destino de almacenamiento a través de redes TCP/IP.
+            p El #[em ISCSI] es una forma sencilla de gestionar el almacenamiento de archivos, bases de datos o discos duros en un almacenamiento centralizado en servidor, que permite el transporte de datos a nivel de bloque entre el iniciador #[em Iscsi] y el destino de almacenamiento a través de redes #[em TCP/IP].
           .col-lg-12.col-22 
             img(src="@/assets/curso/tema6/linea.png") 
           
           .col-lg-3.col-22.p-3
             img(src="@/assets/curso/tema6/6.2.2.png") 
           .col-lg-9.col-22.p-3
-            p La tecnología fibre channel transmite datos a alta velocidad entre los dispositivos de almacenamiento y los servidores utilizando 1 gigabit por segundo y soportando diferentes protocolos (SCSI, IP o ATM entre otros). Puede operar sobre cable o fibra óptica a distancias de 10 km sin uso de repetidores.
+            p La tecnología #[em fibre channel] transmite datos a alta velocidad entre los dispositivos de almacenamiento y los servidores utilizando 1 #[em gigabit] por segundo y soportando diferentes protocolos (#[em SCSI, IP o ATM] entre otros). Puede operar sobre cable o fibra óptica a distancias de 10 km sin uso de repetidores.
           .col-lg-12.col-22 
             img(src="@/assets/curso/tema6/linea.png")
           
           .col-lg-3.col-22.p-3
             img(src="@/assets/curso/tema6/6.2.3.png") 
           .col-lg-9.col-22.p-3
-            p SAS es una tecnología que utilizan los computadores para transferir datos desde la tarjeta madre al almacenamiento y viceversa. Generalmente es más costoso y resulta más adecuado para su uso en servidores o estaciones de trabajo informáticas de procesamiento pesado.
+            p #[em SAS] es una tecnología que utilizan los computadores para transferir datos desde la tarjeta madre al almacenamiento y viceversa. Generalmente es más costoso y resulta más adecuado para su uso en servidores o estaciones de trabajo informáticas de procesamiento pesado.
           .col-lg-12.col-22 
             img(src="@/assets/curso/tema6/linea.png")
           
           .col-lg-3.col-22.p-3
             img(src="@/assets/curso/tema6/6.2.4.png") 
           .col-lg-9.col-22.p-3 
-            p RAID es una tecnología de virtualización de almacenamiento de datos que adopta varios componentes de unidad de disco física en una sola unidad lógica para fines de redundancia de los datos, mejorando el rendimiento.
+            p #[em RAID] es una tecnología de virtualización de almacenamiento de datos que adopta varios componentes de unidad de disco física en una sola unidad lógica para fines de redundancia de los datos, mejorando el rendimiento.
   </template>
 
 <script>

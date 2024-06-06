@@ -16,7 +16,7 @@
           .tarjeta
             img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema8/img01.png")
             .fondo-tarjetasflip.p-4
-              p.p-2 El integrador o fabricante de hardware de IoT implementa las características de administración de dispositivos dentro de una aplicación integrada, que pueden contener actualizaciones de firmware, instalación y actualizaciones de software, y administración de configuraciones.
+              p.p-2 El integrador o fabricante de #[em hardware] de IoT implementa las características de administración de dispositivos dentro de una aplicación integrada, que pueden contener actualizaciones de #[em firmware], instalación y actualizaciones de #[em software], y administración de configuraciones.
         .col-lg-4.col-xl-4.p-2
           .tarjeta
             img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema8/img02.png")
@@ -26,7 +26,7 @@
           .tarjeta
             img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema8/img03.png")
             .fondo-tarjetasflip.p-4
-              p.p-2 El operador de soluciones de IoT usa la solución de IoT para ejecutar tareas de administración de dispositivos, en concreto, para agrupar los dispositivos, iniciar cambios de configuración (como actualizaciones de firmware), inspeccionar el progreso y corregir los problemas que surjan.
+              p.p-2 El operador de soluciones de IoT usa la solución de IoT para ejecutar tareas de administración de dispositivos, en concreto, para agrupar los dispositivos, iniciar cambios de configuración (como actualizaciones de #[em firmware]), inspeccionar el progreso y corregir los problemas que surjan.
   
   
   

@@ -220,7 +220,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Active Directory (AD)',
+      termino: '<i>Active Directory (AD)</i>',
       significado:
         'base de datos y conjunto de servicios que conectan a los usuarios con los recursos de red que necesitan para realizar su trabajo.',
     },
@@ -240,7 +240,7 @@ export default {
         'Pacto o convenio, oral o escrito, entre partes que se obligan sobre materia o cosa determinada, y a cuyo cumplimiento pueden ser compelidas (Real Academia Española, s.f.)”.',
     },
     {
-      termino: 'Cloud computing',
+      termino: '<i>Cloud computing</i>',
       significado:
         'la computación en la nube, conocida también como servicios en la nube, consiste en el uso de una red de servidores remotos alojados en Internet para almacenar, administrar y procesar datos e información, en lugar de un servidor local o una computadora personal.',
     },
@@ -260,7 +260,7 @@ export default {
         'un dominio cuando hablamos de virtualización almacena una partición de directorio de dominio que consta de información sobre el dominio en el que se encuentra, más el esquema y las particiones del directorio de configuración para todo el bosque.',
     },
     {
-      termino: 'Framework',
+      termino: '<i>Framework</i>',
       significado:
         'marco de trabajo específico, con instrucciones y estructuras, para la implementación de alguna acción.',
     },
@@ -352,14 +352,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro: '',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Responsable del Ecosistema',
+          centro: 'Dirección General',
         },
         {
-          nombre: '',
-          cargo: '',
-          centro: '',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -400,8 +400,18 @@ export default {
       autores: [
         {
           nombre: 'Leonardo Castellanos Rodriguez',
-          cargo: 'Ingeniero Desarrollador Fullstack',
-          centro: 'San gil - Regional Santander ',
+          cargo: 'Desarrollador Fullstack',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
+          nombre: 'Yazmin Rocio Figueroa Pacheco',
+          cargo: 'Diseñadora de Contenidos Digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y Productora Multimedia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -409,9 +419,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro: '',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
+          cargo: 'Validadora de Recursos Educativos Digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora para Contenidos Inclusivos y Accesibles',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },

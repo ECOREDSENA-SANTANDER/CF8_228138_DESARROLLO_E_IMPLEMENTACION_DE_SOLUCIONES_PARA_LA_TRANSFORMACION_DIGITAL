@@ -9,7 +9,7 @@
       
       .row(data-aos="fade-right")
         .col-lg-12.col-22 
-          p Asumiendo que los sensores son una pieza clave en el éxito del internet de las cosas, es importante analizar en qué consisten y su función en la la IoT:
+          p Asumiendo que los sensores son una pieza clave en el éxito del internet de las cosas, es importante analizar en qué consisten y su función en la IoT:
 
       SlyderF(columnas="col-lg-4 col-xl-4").p-4(data-aos="fade-right")
         .tarjeta

@@ -18,8 +18,8 @@
               .col-10
                 img(src="@/assets/curso/tema7/001.svg", alt="alt")
 
-            h4.text-center RFID:
-            p.text-center Radio Frequency Identification [12]
+            h4.text-center #[em RFID]:
+            p.text-center #[em Radio Frequency Identification] [12]
 
         .col-sm-6.col-lg-2.mb-4.mb-lg-0
           .tarjeta.p-4
@@ -27,8 +27,8 @@
               .col-10
                 img(src="@/assets/curso/tema7/002.svg", alt="alt")
 
-            h4.text-center WSN:
-            p.text-center Wireless Sensor Network [13]
+            h4.text-center #[em WSN]:
+            p.text-center #[em Wireless Sensor Network] [13]
 
             
         .col-sm-6.col-lg-2.mb-4.mb-lg-0
@@ -37,8 +37,8 @@
               .col-10
                 img(src="@/assets/curso/tema7/003.svg", alt="alt")
 
-            h4.text-center NFC:
-            p.text-center Near Field Communication[14]
+            h4.text-center #[em NFC:]
+            p.text-center #[em Near Field Communication][14]
 
             
         .col-sm-6.col-lg-2.mb-4.mb-lg-0
@@ -47,7 +47,7 @@
               .col-10
                 img(src="@/assets/curso/tema7/004.svg", alt="alt")
 
-            h4.text-center WiFi:
+            h4.text-center #[em WiFi]:
             p.text-center estándar IEEE 802.11n
 
             
@@ -57,7 +57,7 @@
               .col-10
                 img(src="@/assets/curso/tema7/005.svg", alt="alt")
 
-            h4.text-center Bluetooth
+            h4.text-center #[em Bluetooth]
             p.text-center <br><br>
 
       .row 
@@ -93,18 +93,18 @@
         .tarjeta.lg-flex
           img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema7/slyder1.png")
           .fondo-slyderC.p-3
-            h4 Scratch
+            h4 #[em Scratch]
             p.p-4 Herramienta suficientemente intuitiva y fluida, que permite al usuario trabajar con lenguaje de programación en bloques, usando piezas que se parecen a las de un rompecabezas.
         .tarjeta.lg-flex
           img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema7/slyder2.png")
           .fondo-slyderC.p-3
-            h4 Scratch Jr.
+            h4 #[em Scratch Jr].
             p.p-3 Se trata de una versión más sencilla y digerible de Scratch diseñada para los niños. La manera de presentar la programación en bloques facilita el entendimiento de usuarios de muy corta edad.
         .tarjeta.lg-flex
           img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema7/slyder3.png")
           .fondo-slyderC.p-3
-            h4 Minecraft
-            p Videojuego muy popular en los últimos años, que insta a los jugadores a trabajar conceptos básicos de programación visual, aunque también, para usuarios con conocimientos avanzados, brinda funciones para programar en lenguajes más tradicionales como JavaScript.
+            h4 #[em Minecraft]
+            p Videojuego muy popular en los últimos años, que insta a los jugadores a trabajar conceptos básicos de programación visual, aunque también, para usuarios con conocimientos avanzados, brinda funciones para programar en lenguajes más tradicionales como #[em JavaScript].
         .tarjeta
           img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema7/slyder4.png")
           .fondo-slyderC.p-3
@@ -113,7 +113,7 @@
         .tarjeta
           img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema7/slyder5.png")
           .fondo-slyderC.p-4
-            h4 Google Blockly
+            h4 #[em Google Blockly]
             p.p-1 Se conforma de un conjunto de comandos que pueden ordenarse como piezas de rompecabezas. Es fácil de utilizar y está enfocado a usuarios pequeños que no esencialmente sepan escribir código.
 </template>
 
