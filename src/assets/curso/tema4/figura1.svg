@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="782.911" height="126.485" viewBox="0 0 782.911 126.485">
-  <g id="Grupo_157999" data-name="Grupo 157999" transform="translate(-400 -1403)">
+  <g id="Grupo_157987" data-name="Grupo 157987" transform="translate(-400 -1403)">
     <g id="Grupo_157897" data-name="Grupo 157897" transform="translate(0 10)">
       <rect id="Rectángulo_45109" data-name="Rectángulo 45109" width="156.911" height="102.485" rx="10" transform="translate(400 1417)" fill="#fff"/>
       <rect id="Rectángulo_45110" data-name="Rectángulo 45110" width="156.911" height="102.485" rx="10" transform="translate(609 1417)" fill="#fff"/>
@@ -17,10 +17,10 @@
         <path id="Icon_awesome-long-arrow-alt-right-5" data-name="Icon awesome-long-arrow-alt-right" d="M42.074,15.188H.844A.844.844,0,0,0,0,16.031v3.938a.844.844,0,0,0,.844.844h41.23v3.239a1.688,1.688,0,0,0,2.881,1.193l6.051-6.051a1.687,1.687,0,0,0,0-2.386l-6.051-6.051a1.688,1.688,0,0,0-2.881,1.193Z" transform="translate(548.5 1537.758)" fill="#ff6148"/>
         <path id="Icon_awesome-long-arrow-alt-right-6" data-name="Icon awesome-long-arrow-alt-right" d="M42.074,15.188H.844A.844.844,0,0,0,0,16.031v3.938a.844.844,0,0,0,.844.844h41.23v3.239a1.688,1.688,0,0,0,2.881,1.193l6.051-6.051a1.687,1.687,0,0,0,0-2.386l-6.051-6.051a1.688,1.688,0,0,0-2.881,1.193Z" transform="translate(600 1544.758) rotate(180)" fill="#ff6148"/>
       </g>
-      <text id="Client" transform="translate(457 1486)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="17">Client</tspan></text>
-      <text id="Proxy" transform="translate(666 1486)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="17">Proxy</tspan></text>
-      <text id="Proxy-2" data-name="Proxy" transform="translate(875 1486)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="17">Proxy</tspan></text>
-      <text id="Server" transform="translate(1079 1486)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="17">Server</tspan></text>
+      <text id="Client" transform="translate(457 1486)" fill="#12263f" font-size="16" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="17">Client</tspan></text>
+      <text id="Proxy" transform="translate(666 1486)" fill="#12263f" font-size="16" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="17">Prox</tspan></text>
+      <text id="Proxy-2" data-name="Proxy" transform="translate(875 1486)" fill="#12263f" font-size="16" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="17">Prox</tspan></text>
+      <text id="Server" transform="translate(1079 1486)" fill="#12263f" font-size="16" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="17">Server</tspan></text>
       <g id="Grupo_157896" data-name="Grupo 157896" transform="translate(0 -10)">
         <rect id="Rectángulo_45160" data-name="Rectángulo 45160" width="75" height="75" transform="translate(441 1403)" fill="none"/>
         <g id="ordenador-portatil" transform="translate(448 1406)">

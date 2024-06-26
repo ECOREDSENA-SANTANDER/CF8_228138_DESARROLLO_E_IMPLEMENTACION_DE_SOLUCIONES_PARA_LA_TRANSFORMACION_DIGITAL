@@ -43,7 +43,7 @@
           .tarjeta.fondo-slyderC
             .p-4
               h4 Capa 5 - Nivel de sesión
-              p Organiza y sincroniza el diálogo y control de intercambio de los datos. El protocolo #[em NetBIOS] enlaza un sistema operativo de red con un hardware específico.
+              p Organiza y sincroniza el diálogo y control de intercambio de los datos. El protocolo #[em NetBIOS] enlaza un sistema operativo de red con un #[em hardware] específico.
         
         .tarjeta-avatar
           img(src='@/assets/curso/tema4/img06.png' alt='AvatarTop')

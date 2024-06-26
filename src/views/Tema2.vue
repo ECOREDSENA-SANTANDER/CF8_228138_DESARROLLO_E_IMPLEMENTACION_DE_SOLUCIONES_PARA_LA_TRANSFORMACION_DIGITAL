@@ -90,7 +90,7 @@
 
                   .tarjeta.color-acento-botones.p-3(x="10%" y="30%" numero="2")
                     .h5.mb-2 2. Puerto #[em USB]
-                    p Se utiliza para la alimentación de la interfaz Uno Genuino, la carga de nuestros programas, y para la comunicación con nuestra placa (a través de serie. PrintIn (), etc.) El regulador de tensión ubicado a su lado, convertirá la tensión que le llega a través de este puerto #[em USB] y hará que trabaje a 5V.
+                    p Se utiliza para la alimentación de la interfaz Uno Genuino, la carga de nuestros programas, y para la comunicación con nuestra placa (a través de serie. #[em PrintIn] (), etc.) El regulador de tensión ubicado a su lado, convertirá la tensión que le llega a través de este puerto #[em USB] y hará que trabaje a 5V.
 
                   .tarjeta.color-acento-botones.p-3(x="10%" y="90%" numero="3")
                     .h5.mb-2 3. Conector de alimentación
@@ -110,7 +110,7 @@
                   
                   .tarjeta.color-acento-botones.p-3(x="51%" y="10%" numero="7/23")
                     .h5.mb-2 7 y 23. Pin 13 + L (#[em on board led])
-                    p El único actuador incorporado a la placa. Además de ser un objetivo práctico para nuestra primera práctica de encender y apagar LED, este LED es muy útil para la depuración (#[em debugging]).
+                    p El único actuador incorporado a la placa. Además de ser un objetivo práctico para nuestra primera práctica de encender y apagar #[em LED], este #[em LED] es muy útil para la depuración (#[em debugging]).
 
                   .tarjeta.color-acento-botones.p-3(x="47%" y="10%" numero="8")
                     .h5.mb-2 8. #[em GND]
@@ -118,11 +118,11 @@
 
                   .tarjeta.color-acento-botones.p-3(x="40%" y="7%" numero="9")
                     .h5.mb-2 9. #[em AREF]
-                    p AnalogReference input V- Tensión a 5V, proporciona diferencia de potencial. Si se le aplica voltaje externo debe ser entre 0 y 5V solamente.
+                    p #[em AnalogReference input] V- Tensión a 5V, proporciona diferencia de potencial. Si se le aplica voltaje externo debe ser entre 0 y 5V solamente.
 
                   .tarjeta.color-acento-botones.p-3(x="20%" y="8%" numero="10")
                     .h5.mb-2 10. #[em Botón Reset]
-                    p Restablece el microcontrolador #[em ATmega]
+                    p Restablece el microcontrolador. #[em ATmega]
 
                   .tarjeta.color-acento-botones.p-3(x="36%" y="38%" numero="11")
                     .h5.mb-2 11. #[em Chip]
@@ -142,7 +142,7 @@
 
                   .tarjeta.color-acento-botones.p-3(x="85%" y="95%" numero="15")
                     .h5.mb-2 15. Pines analógicos
-                    p Utilizaremos estos pines con instrucciones como #[em Analogread] ().
+                    p Utilizaremos estos pines con instrucciones como #[em Analogread].
 
                   .tarjeta.color-acento-botones.p-3(x="70%" y="97%" numero="16")
                     .h5.mb-2 16. Vin
@@ -150,7 +150,7 @@
 
                   .tarjeta.color-acento-botones.p-3(x="67%" y="97%" numero="17")
                     .h5.mb-2 17. #[em GND]
-                    p proporciona masa, tierra, negativo a nuestros circuitos.
+                    p Proporciona masa, tierra, negativo a nuestros circuitos.
 
                   .tarjeta.color-acento-botones.p-3(x="60%" y="97%" numero="18")
                     .h5.mb-2 18. 5V
@@ -166,7 +166,7 @@
 
                   .tarjeta.color-acento-botones.p-3(x="46%" y="34%" numero="21")
                     .h5.mb-2  21. #[em TX y RX LED.]
-                    p  Estos #[em LEDs] indican la comunicación entre la placa y el ordenador. Estos #[em leds] parpadearán rápidamente durante la carga de nuestros programas, así como durante la comunicación serie. Útil para la depuración (#[em debugging]
+                    p  Estos #[em LEDs] indican la comunicación entre la placa y el ordenador. Estos #[em leds] parpadearán rápidamente durante la carga de nuestros programas, así como durante la comunicación serie. Útil para la depuración #[em debugging]
                     .h5.mb-2 Casa fabricante original.
                     p Aquí puedes comprobar fácilmente si tu placa se trata de una imitación o el original.
 

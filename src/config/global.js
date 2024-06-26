@@ -400,7 +400,7 @@ export default {
       autores: [
         {
           nombre: 'Leonardo Castellanos Rodriguez',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador <i>Fullstack</i>',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {

@@ -9,7 +9,7 @@
     <text id="OK" transform="translate(604.779 2510)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="72.742" y="17">OK</tspan></text>
     <g id="Grupo_157905" data-name="Grupo 157905" transform="translate(525 2239)">
       <rect id="Rectángulo_45109" data-name="Rectángulo 45109" width="156.911" height="102.485" rx="10" transform="translate(0 24)" fill="#fff"/>
-      <text id="Client" transform="translate(56.779 93)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="17">Clien</tspan></text>
+      <text id="Client" transform="translate(56.779 93)" fill="#12263f" font-size="16" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="17">Client</tspan></text>
       <g id="Grupo_157896" data-name="Grupo 157896" transform="translate(41)">
         <rect id="Rectángulo_45160" data-name="Rectángulo 45160" width="75" height="75" transform="translate(-0.221)" fill="none"/>
         <g id="ordenador-portatil" transform="translate(7 3)">
@@ -49,7 +49,7 @@
     </g>
     <g id="Grupo_157904" data-name="Grupo 157904" transform="translate(696.855 2239)">
       <rect id="Rectángulo_45112" data-name="Rectángulo 45112" width="156.911" height="102.485" rx="10" transform="translate(0 24)" fill="#fff"/>
-      <text id="Server" transform="translate(52.924 93)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="17">Server</tspan></text>
+      <text id="Server" transform="translate(52.924 93)" fill="#12263f" font-size="16" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="17">Server</tspan></text>
       <g id="Grupo_157893" data-name="Grupo 157893" transform="translate(40.703)">
         <rect id="Rectángulo_45163" data-name="Rectángulo 45163" width="75" height="75" transform="translate(0.221)" fill="none"/>
         <g id="server_2_" data-name="server(2)" transform="translate(3.297 2)">
