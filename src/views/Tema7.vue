@@ -10,7 +10,7 @@
       .row(data-aos="fade-right")
         .col-lg-12-col-12
           p Los puertos de comunicación son las interfaces que se utilizan en las aplicaciones para conectarse con otros elementos, ya sean <i>hardware o software,</i> para enviar y recibir paquetes de datos. En cierta manera, es como el buzón de correos aplicado a un ordenador.<br><br>Las principales tecnologías de comunicaciones utilizadas en IoT, son:
-  
+      
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left").color-contenedornaranja
         .col-sm-6.col-lg-2.mb-4.mb-lg-0
           .tarjeta.p-4
