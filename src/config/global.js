@@ -425,7 +425,17 @@ export default {
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora de Recursos Educativos Digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
           nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora para Contenidos Inclusivos y Accesibles',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
+          nombre: 'Diana Lizeth Lozada Díaz',
           cargo: 'Evaluadora para Contenidos Inclusivos y Accesibles',
           centro: 'Regional Santander - Centro Agroturístico',
         },

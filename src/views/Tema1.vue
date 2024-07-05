@@ -19,7 +19,7 @@
         h2 1.1 Origen e importancia
       .row(data-aos="fade-left")
         p Entre los años 1991 y 1999, Mark Weiser y Naoto Fukusawa se centraron en el área del diseño de dispositivos que tengan una sensibilidad a la naturaleza humana, y estos dispositivos se volverán una parte integral de los seres humanos ejecutando algunos patrones de uso. Kevin Ashton, cofundador de AUTO ID center del MIT en 1999 en una presentación de frecuencias de radio (RFID) llamó a su presentación <b>“Internet de las cosas”,</b> pero el verdadero Internet de las cosas sucedería cuando se conecten a internet más dispositivos que personas y esto sucedió en el 2009 con el nacimiento de los celulares. 
-        p En estos términos, para el 2022 se espera que estén #[b conectados 18 mil millones de dispositivos,] no solo celulares, #[em tablets, pc’s], sino también dispositivos que nunca nos imaginariamos tales como refrigeradores, cepillos, autos, zapatillas, collares de mascotas, iluminación, cerraduras, ropa, etc.
+        p En estos términos, para el 2022 se espera que estén #[b conectados 18 mil millones de dispositivos,] no solo celulares, #[em tablets, pc’s], sino también dispositivos que nunca nos imaginaríamos tales como refrigeradores, cepillos, autos, zapatillas, collares de mascotas, iluminación, cerraduras, ropa, etc.
         p El internet de las cosas tiene un millar de aplicaciones, algunas de ellas son:
 
       SlyderF(columnas="col-lg-4 col-xl-4").p-4(data-aos="fade-right")
@@ -98,7 +98,7 @@
             .tarjeta.color-salmon
               .p-4
                 h4 Capa de transporte 
-                p Encargada de transferir los datos de sensores desde la capa de percepción a la capa de procesamiento y viceversa a través de redes tales como #[em Wireless, 3G, LAN , Bluetooth, RFID Y NFC.]
+                p Encargada de transferir los datos de sensores desde la capa de percepción a la capa de procesamiento y viceversa a través de redes tales como #[em Wireless, 3G, LAN, Bluetooth, RFID y NFC.]
 
         .col-sm-6.col-lg-5.mb-4.mb-lg-0
           .tarjeta-avatar
@@ -109,7 +109,7 @@
                 p Almacena, analiza y procesa grandes cantidades de datos que provienen de la capa de transporte. Puede administrar y proporcionar un conjunto diverso de servicios a las capas inferiores, aquí encontramos tecnologías como bases de datos, computación en la nube y procesamiento de #[em big data].
       .row.p-4 
         .col
-          p En la siguiente figura se puede observar una comparación entre cada una de estas arquitecturas:
+          p En la siguiente figura se presenta una comparación entre cada una de estas arquitecturas:
 
       .row.justify-content-center.align-items-center
           .col-lg-8.col-22.p-2
@@ -117,7 +117,7 @@
               p.mb-0 #[b Figura 1.] Capas de arquitectura.
             .container.tarjeta.color-contenedornaranja.p-4.p-md-5
               .col-lg-12.col-12
-                img(src='@/assets/curso/tema1/01.svg' alt='La imagen muestra dos diagramas etiquetados como "A" y "B", ambos diagramas contienen una serie de bloques que representan diferentes capas de una arquitectura de sistemas o software, pero hay diferencias entre ellos en los nombres y la organización de estas capas.')
+                img(src='@/assets/curso/tema1/01.svg' alt='La figura presenta un diagrama con dos etiquetas y bloques en paralelo:  "A" arquitectura de tres capas, etiquetadas (de arriba hacia abajo) como Capa de aplicación, Capa de red y Capa de percepción, y "B" de cinco capas, etiquetadas (de arriba hacia abajo) como Capa de negocio, Capa de aplicación, Capa de procesamiento, Capa de transporte y Capa de percepción.')
       
       Separador
       #t_1_3.titulo-segundo.color-acento-contenido
@@ -137,7 +137,7 @@
             .col-xl-4.mb-4
               img(src='@/assets/curso/tema1/13.1.png', alt='Texto que describa la imagen')
             .col-xl-8.py-3
-              p Los sensores son seleccionados de acuerdo al requerimiento a implementar, tales como procesos de control industrial, medidas y automatización, automóviles, electrónica de consumo, productos médicos.
+              p Los sensores son seleccionados de acuerdo con el requerimiento a implementar, tales como procesos de control industrial, medidas y automatización, automóviles, electrónica de consumo, productos médicos.
           
         .tarjeta.p-4.color-contenedorpink(titulo="2. Basadas en tipo de señal de salida")
           h4 2. Basadas en tipo de señal de salida
@@ -194,7 +194,7 @@
                 .col-xl-4.mb-4
                   img(src='@/assets/curso/tema1/009.png', alt='Texto que describa la imagen')
                 .col-xl-8.py-3
-                   p #[b Sensores de presión:]  fibra óptica, manómetros..
+                   p #[b Sensores de presión:]  fibra óptica, manómetros.
               
               .row
                 .col-xl-4.mb-4.py-3
@@ -226,7 +226,7 @@
         .col-lg-12.col-22
             p Y los actuadores activan un determinado proceso utilizando señales eléctricas. Estos reciben una señal eléctrica y la transforman en movimiento en el ambiente Internet de las cosas; los actuadores se usan siempre que sea necesario encender o apagar otro dispositivo, aplicando una fuerza. 
         
-        .col-lg-4
+        .col-lg-5
           h4.subrayado-naranja.p-2 Los actuadores tienen dos clasificaciones:
         .col-lg-12.p-4
           p #[b 1. Según la fuente de energía:] se requieren para generar movimiento.
@@ -256,7 +256,7 @@
             
       .row(data-aos="fade-left")
         .col-lg-12.p-4
-          p #[b 1. Según la fuente de energía:] se requieren para generar movimiento.
+          p #[b 2. Según su patrón de construcción y papel que desempeñan]
 
       .row.justify-content-center.align-items-center
         .col-10
@@ -279,7 +279,7 @@
               .col-md-3
                 figure.justify-content-center.align-items-center
                   img(src="@/assets/curso/tema1/a6.png")
-            .row(titulo="Selenoides")
+            .row(titulo="Solenoides")
               .col-md-8.mb-4.mb-md-0
                 p Son un electroimán usados en electrodomésticos, equipos de oficina, automóviles, y  también funcionan como controladores en los sistemas de fugas de agua y gas en Iota.
               .col-md-3

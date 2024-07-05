@@ -83,7 +83,7 @@
           p Esta es la capa que los usuarios ven y sirve de interfaz entre las aplicaciones donde generamos los datos y el resto de la red. Los datos a transmitir son generados por una aplicación. No nos referimos a las aplicaciones mismas, sino a los procesos que funcionan a nivel de #[em software] en nuestro aplicativo; por ejemplo: enviar un mensaje con #[em WhatsApp], ver un video, enviar un correo, #[em Twitter], navegador #[em web].
         .tarjeta.color-contenedorpink.p-4(titulo="6. Presentación")
           h4 6. Presentación
-          p Se encarga de el formato que deseamos analizar e implementa mecanismos de codificación como ASCII o Unicode para representar los datos a un formato que las computadoras entienden, se traduce lenguaje de alto nivel a lenguaje binario. Por ejemplo: si queremos conocer una imagen, esta capa se encarga de dicha acción.
+          p Se encarga del formato que deseamos analizar e implementa mecanismos de codificación como ASCII o Unicode para representar los datos a un formato que las computadoras entienden, se traduce lenguaje de alto nivel a lenguaje binario. Por ejemplo: si queremos conocer una imagen, esta capa se encarga de dicha acción.
         .tarjeta.color-contenedorpink.p-4(titulo="5. Sesión")
           h4 5. Sesión
           p Maneja la conversación entre dos equipos (#[em hosts]) y establece el camino para las aplicaciones que se van a comunicar entre el dispositivo emisor y el receptor; el diálogo de establecer mantener y cerrar se llama sesión.
@@ -99,7 +99,7 @@
           p Toma toda la información y la traduce en información binaria, además, se divide en dos subcapas:
           ol.lista-ol
               li 
-                span • #[em LLC (Logic Link Control) , MAC (Media Access Control).]
+                span • #[em LLC (Logic Link Control), MAC (Media Access Control).]
               li 
                 span • #[em LLC] comunica el #[em software] de la red con el #[em hardware] de la misma por medio de #[em drivers] de tarjeta de red, una vez se realiza la comunicación se envían los datos a la #[em MAC] (se agrega un direccionamiento físico), la #[em IP] indica en qué red en el mundo se encuentra el dispositivo y la dirección #[em MAC] dice cuál es el dispositivo de la red.
         
@@ -109,21 +109,23 @@
       
       
       .row.p-4 
-        .col-lg-2
+        .col-lg-3
           h4.subrayado-naranja.p-2 Modelo TCP/IP
+      
+      p El siguiente video presenta el Modelo TCP/IP, a través de un ejemplo.
 
       figure(data-aos="fade-right")
         .video.mb-1
-          iframe(width="1280" height="720" src="https://youtube.com/embed/HhgkV7YDhXY" title="Infraestructura y servicios tecnológicos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="1280" height="720" src="https://youtube.com/embed/r--xEt9-HnM?si=sOaZ5K467N1Af3zZ" title="Infraestructura y servicios tecnológicos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Modelo TCP/IP
 
       Separador
       #t_3_2.titulo-segundo.color-acento-contenido
         h2 3.2 Protocolo de comunicación #[em MQTT]
       
-      .topSquare02.clr--Yellow.mb-5(data-aos="fade-left")
+      .topSquare02.clr--pink.mb-5(data-aos="fade-left")
         .row
-          .col-lg-1.col-auto
+          .col-lg-2.col-auto
             figure
               img(src="@/assets/curso/tema3/img01.svg", alt="alt").img75.m-auto
           .col-lg-10
@@ -134,7 +136,7 @@
           .container.tarjeta.color-contenedornaranja.p-4.p-md-5
             .col-lg-12.col-22.p-1
             .titulo-sexto.color-acento-contenido.mb-3
-              p.mb-0 #[b figura 2.] Protocolo #[em MQTT]
+              p.mb-0 #[b Figura 2.] Protocolo #[em MQTT]
             img.d-none.d-md-block(src='@/assets/curso/tema3/3.2.svg', alt='La imagen muestra un  esquema en donde se visualizan tres bloques alineados horizontalmente. De izquierda a derecha, el primer bloque contiene el texto "OSI 5-7" junto a "<i>MQTT</i>", lo que indica que el protocolo <i>MQTT</i> opera en las capas 5 a 7 del modelo OSI, que son la capa de sesión, la capa de presentación y la capa de aplicación. El segundo bloque está etiquetado con "OSI 4" y "TCP", implicando que el protocolo de control de transmisión (TCP) opera en la capa 4, la capa de transporte. El tercer bloque está marcado como "Capa OSI 3" e "IP", señalando que el protocolo de internet (IP) corresponde a la capa 3, la capa de red del modelo OSI.') 
             img.d-block.d-md-none(src='@/assets/curso/tema3/3.2mobile.svg', alt='La imagen muestra un  esquema en donde se visualizan tres bloques alineados horizontalmente. De izquierda a derecha, el primer bloque contiene el texto "OSI 5-7" junto a "<i>MQTT</i>", lo que indica que el protocolo <i>MQTT</i> opera en las capas 5 a 7 del modelo OSI, que son la capa de sesión, la capa de presentación y la capa de aplicación. El segundo bloque está etiquetado con "OSI 4" y "TCP", implicando que el protocolo de control de transmisión (TCP) opera en la capa 4, la capa de transporte. El tercer bloque está marcado como "Capa OSI 3" e "IP", señalando que el protocolo de internet (IP) corresponde a la capa 3, la capa de red del modelo OSI.')
 
@@ -156,7 +158,7 @@
         .col-lg-8.col-22 
           p Cuando existe una aplicación o un nodo que publicará un mensaje, no se necesita saber nada acerca del nodo que recibirá y consumirá el mensaje. Con el protocolo #[em MQTT] la única dirección y puerto que se necesitan conocer es la del #[em broker] de mensajes.
           p #[b Quien publica y quien recibe no necesitan estar conectados a la vez, porque el #[em broker] tiene la capacidad de almacenar mensajes,] aunque en la mayoría de los casos los mensajes se consumen en tiempo real, generalmente sucede con clientes que no están sincrónicamente conectados. 
-          p En resumen, #[b el protocolo #[em MQTT] se basa en que alguien publica un mensaje con el identificador de un topic específico,] el #[em broker] distribuye el mensaje a todos los clientes (aplicaciones o dispositivos) que están suscritos a ese topic y esos clientes reciben y consumen los datos de esos mensajes.
+          p En resumen, #[b el protocolo #[em MQTT] se basa en que alguien publica un mensaje con el identificador de un #[em topic] específico,] el #[em broker] distribuye el mensaje a todos los clientes (aplicaciones o dispositivos) que están suscritos a ese topic y esos clientes reciben y consumen los datos de esos mensajes.
           p #[em MQTT] se usa actualmente en autos, casas y ciudades inteligentes, así como en fábricas, productos de consumo, etcétera.
        
       .row.justify-content-center.align-items-center
@@ -171,7 +173,7 @@
       #t_3_3.titulo-segundo.color-acento-contenido
         h2 3.3 Computación en la nube
       
-      p A computación en la nube o cloud computing son tecnologías que ofrecen servicios mediante conexión a internet desde cualquier punto y en cualquier momento. Presentan características únicas al servicio del internet de las cosas, ofreciendo recolección, almacenamiento y gestión de los datos recogidos por los dispositivos, además de alta disponibilidad. 
+      p A computación en la nube o #[em cloud computing] son tecnologías que ofrecen servicios mediante conexión a internet desde cualquier punto y en cualquier momento. Presentan características únicas al servicio del internet de las cosas, ofreciendo recolección, almacenamiento y gestión de los datos recogidos por los dispositivos, además de alta disponibilidad. 
       p La computación en la nube ofrece tres posibilidades en cuanto a modelos de servicio, a saber:
 
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
@@ -279,7 +281,7 @@
                 .tarjeta.color-contenedornaranja2 
                   .p-4
                     h4 Nodo servidor
-                    p Este nodo cuenta  con funciones de servidor web y base de datos y como cliente #[em MQTT] suscrito a los topics de interés y almacena información en la base de datos.
+                    p Este nodo cuenta  con funciones de servidor #[em web] y base de datos y como cliente #[em MQTT] suscrito a los #[em topics] de interés y almacena información en la base de datos.
 
             .col-sm-6.col-lg-6.mb-4.mb-lg-0
               .tarjeta-avatar
@@ -297,7 +299,7 @@
       .row(data-aos="fade-left")
         .col-lg-8.col-22 
           p Para el objetivo final de los datos recogidos provenientes de la capa de percepción (sensores y otros dispositivos), es necesario describir patrones y correlaciones en tiempo real para impactar en forma positiva a las empresas en su toma de decisiones, como, por ejemplo, la analítica de datos en IoT puede controlar la producción, la temperatura en procesos industriales, monitorear la salud de los pacientes, etcétera.
-          p Aquí entra el concepto del #[em Big Data] que, según el Instituto Nacional de Estándares y Tecnologías (NIST), consiste de un extenso conjunto de datos principalmente con características de volumen, variedad, velocidad y variabilidad que requieren una arquitectura escalable para un almacenamiento, manipulación y análisis eficientes.
+          p Aquí entra el concepto del #[em Big Data] que, según el Instituto Nacional de Estándares y Tecnologías (NIST), consiste en un extenso conjunto de datos principalmente con características de volumen, variedad, velocidad y variabilidad que requieren una arquitectura escalable para un almacenamiento, manipulación y análisis eficientes.
           p Según la Unión Internacional de Telecomunicaciones (ITU-T), el #[em Big Data] es un paradigma para habilitar la colección, almacenamiento, gestión, análisis y visualización –potencialmente con limitaciones de tiempo real–, de un extenso conjunto de datos con características heterogéneas.
         .col-lg-4.col-22
           img(src="@/assets/curso/tema3/03.png")
@@ -349,6 +351,7 @@
             .titulo-sexto.color-acento-contenido.mb-3
               p.mb-0 #[b Figura 3.] Proceso del #[em Big Data]
             img(src="@/assets/curso/tema3/ultimo.svg" alt='La imagen muestra un diagrama que presenta una vista general de las fases de un proceso de Big Data, dividido en dos grandes áreas: Gestión de Datos y Analítica. En la sección Gestión de Datos, hay tres bloques que representan etapas consecutivas: Adquisición y Registro, seguido de Extracción, Limpieza y Anotación, y finalmente Integración, Agregación y Representación. En la sección Analítica, también hay dos bloques: uno repite Extracción, Limpieza y Anotación, lo que sugiere que estas acciones son relevantes tanto en la gestión como en la analítica de datos. El segundo bloque está etiquetado Interpretación, indicando el paso final en el proceso de analítica de Big Data. El diagrama resalta los pasos clave en el manejo y análisis de grandes volúmenes de datos.')
+  
   </template>
 
 <script>

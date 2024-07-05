@@ -5,9 +5,9 @@
       .titulo-principal.color-acento-botones
         .titulo-principal__numero
           span 2
-        h1 #[em Raspberry Pi y Arduino]
+        h1 #[em Raspberry Pi] y Arduino
   
-      p.p-2 A continuación conoceremos qué son el #[em Raspberry Pi] y el Arduino, elementos importantes a la hora de hablar de Internet de las Cosas.
+      p.p-2 A continuación, conoceremos qué son el #[em Raspberry Pi] y el Arduino, elementos importantes a la hora de hablar de Internet de las Cosas.
 
       .row(data-aos="fade-left")
         .col-lg-5.col-22
@@ -130,7 +130,7 @@
                   
                   .tarjeta.color-acento-botones.p-3(x="20%" y="71%" numero="12")
                     .h5.mb-2 12. Regulador de tensión
-                    p Se debe tener en cuenta que para que trabaje a 5V la placa deberá recibir unos 6,5V – 7V, pero todo lo que esté por encima de este valor se desperdiciará (es decir, sobrecalentará la placa de Arduino y mayor calor que tendrá que disipar el regulador). En cualquier caso no está recomendado aplicar al regulador más de 12V y a los 20V se dañará.
+                    p Se debe tener en cuenta que para que trabaje a 5V la placa deberá recibir unos 6,5V – 7V, pero todo lo que esté por encima de este valor se desperdiciará (es decir, sobrecalentará la placa de Arduino y mayor calor que tendrá que disipar el regulador). En cualquier caso, no está recomendado aplicar al regulador más de 12V y a los 20V se dañará.
                   
                   .tarjeta.color-acento-botones.p-3(x="95%" y="45%" numero="13")
                     .h5.mb-2 13. ICSP
@@ -167,6 +167,9 @@
                   .tarjeta.color-acento-botones.p-3(x="46%" y="34%" numero="21")
                     .h5.mb-2  21. #[em TX y RX LED.]
                     p  Estos #[em LEDs] indican la comunicación entre la placa y el ordenador. Estos #[em leds] parpadearán rápidamente durante la carga de nuestros programas, así como durante la comunicación serie. Útil para la depuración #[em debugging]
+                    
+                  
+                  .tarjeta.color-acento-botones.p-3(x="75%" y="54%" numero="22")
                     .h5.mb-2 Casa fabricante original.
                     p Aquí puedes comprobar fácilmente si tu placa se trata de una imitación o el original.
 
@@ -188,7 +191,7 @@
                 p Los tableros de Arduino son menos costosos comparados con otros dispositivos como microcontroladores.
               li 
                 span.text-bold • Plataforma
-                p El #[em software] de Arduino (IDE ) es compatible con la mayoría de sistemas operativos como #[em Macintosh OSX, Windows , Linux].
+                p El #[em software] de Arduino (IDE) es compatible con la mayoría de sistemas operativos como #[em Macintosh OSX, Windows, Linux].
               li 
                 span.text-bold • Fácil de usar
                 p El #[em software] de Arduino (IDE) es fácil de usar, además tiene flexibilidad para programadores expertos.

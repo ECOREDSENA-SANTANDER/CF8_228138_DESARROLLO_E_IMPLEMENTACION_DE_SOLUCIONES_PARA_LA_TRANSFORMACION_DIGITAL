@@ -5,7 +5,7 @@
       .titulo-principal.color-acento-botones
         .titulo-principal__numero
           span 6
-        h1 Tipificación de delitos informáticos en Colombia
+        h1 Almacenamiento para IoT
   
       p El almacenamiento para los dispositivos y aplicaciones de internet de las cosas requiere nuevas tácticas y rumbos, como los que se relacionan a continuación:
 
@@ -22,7 +22,7 @@
         .col-sm-6.col-xl-4.mb-3.mb-xl-0.tarjetaflipcontenido2
           .tarjeta.tarjeta-slide.abajo.fondo-tarjetasflip(@mouseover="indicadorTarjetaSlide = false")
             .tarjeta-slide__contenedor
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/2.svg')})`}")
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/3.svg')})`}")
               .tarjeta-slide__contenido.p-4.p-xl-5
                 h4 Dispositivos IoT empresariales
                 p Los datos no estructurados generados por los dispositivos IoT son un caso de uso perfecto para procedimientos de almacenamiento de objetos altamente escalables e, incluso, almacenamiento en la nube. La clave: garantizar capacidad de almacenamiento de datos y ancho de banda para el manejo de la velocidad requerida en los sistemas de almacenamiento IoT.
@@ -30,7 +30,7 @@
         .col-sm-6.col-xl-4.mb-3.mb-xl-0.tarjetaflipcontenido2
           .tarjeta.tarjeta-slide.derecha.fondo-tarjetasflip(@mouseover="indicadorTarjetaSlide = false")
             .tarjeta-slide__contenedor
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/3.svg')})`}")
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/2.svg')})`}")
               .tarjeta-slide__contenido.p-4.p-xl-5
                 h4 Dispositivos IoT de uso industrial
                 p Proveedores de la nube, como #[em Microsoft] con #[em Azure IoT Edge], tienen productos para ayudar en estos casos de uso, pero no siempre funcionan cuando hay restricciones de ancho de banda o latencia.
@@ -41,17 +41,17 @@
 
       .row(data-aos="fade-left")
           p Existen diferentes tipos de sensores con características, funcionalidades y diversidad de marcas ofrecidas en el mercado. Los razonamientos a tener en cuenta para elegir un buen sensor se resumen en la siguiente infografía:
-      .col-lg-3.col-22
+      .col-lg-4.col-22
           h4.subrayado-naranja.p-1 Selección de sensores para IoT: 
   
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left").fondo6
         .col-lg-10.col-12
-          img.d-none.d-md-block.py-4(src='@/assets/curso/tema6/6.1.svg', alt='') 
-          img.d-block.d-md-none(src='@/assets/curso/tema6/6.1.1.svg', alt='')
+          img.d-none.d-md-block.py-4(src='@/assets/curso/tema6/6.1.svg', alt='La infografía presenta los diferentes razonamientos a considerar para la selección de sensores para IoT, tales como: Tipo, alcance, fin (¿Qué resolverá?), calibración, ¿Se requiere un solo sensor?, costo, precisión y repetición. Además, se presentan las diferentes alternativas de sensores a seleccionar, como sensor de presión, movimiento, de nivel e inclinación, de proximidad, de vibración, de humedad, entre otros. ') 
+          img.d-block.d-md-none(src='@/assets/curso/tema6/6.1.1.svg', alt='La infografía presenta los diferentes razonamientos a considerar para la selección de sensores para IoT, tales como: Tipo, alcance, fin (¿Qué resolverá?), calibración, ¿Se requiere un solo sensor?, costo, precisión y repetición. Además, se presentan las diferentes alternativas de sensores a seleccionar, como sensor de presión, movimiento, de nivel e inclinación, de proximidad, de vibración, de humedad, entre otros.')
       
       separador 
       #t_6_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-        h2 6.2 Tecnologías #[em iscsi, fiber channel, sas y arreglos raid]
+        h2 6.2 Tecnologías #[em iscsi, fiber channel, sas] y arreglos #[em raid]
 
 
       .container.color-contenedorpink.p-2.p-md-5 

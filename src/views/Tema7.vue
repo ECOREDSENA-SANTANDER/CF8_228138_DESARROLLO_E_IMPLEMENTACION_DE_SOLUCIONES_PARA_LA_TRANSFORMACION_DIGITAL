@@ -72,7 +72,7 @@
         .col-lg-4.col-22
           img(src="@/assets/curso/tema7/7.2.png", alt="alt")
         .col-lg-8.col-22 
-          p.py-3 Algunos cálculos se pueden medir de forma “analógica”, otros en forma “digital”.<br><br>Los sistemas digitales tienen una aceptación significativa en la tecnología moderna, fundamentalmente en la computación y sistemas de control automático. La tecnología digital hace referencia a “cantidades discretas”, en relación a magnitudes o valores como la distancia y la temperatura o la velocidad, que podrían variar muy lento o muy rápido como un sistema de audio.<br><br>En la tecnología analógica es muy difícil almacenar, manipular, comparar, calcular y recuperar información con exactitud cuando ésta ha sido guardada.<br><br>Por lo anterior, la mayor parte de proyectos IoT se basan en tecnología digital.
+          p.py-3 Algunos cálculos se pueden medir de forma “analógica”, otros en forma “digital”.<br><br>Los sistemas digitales tienen una aceptación significativa en la tecnología moderna, fundamentalmente en la computación y sistemas de control automático. La tecnología digital hace referencia a “cantidades discretas”, con relación a magnitudes o valores como la distancia y la temperatura o la velocidad, que podrían variar muy lento o muy rápido como un sistema de audio.<br><br>En la tecnología analógica es muy difícil almacenar, manipular, comparar, calcular y recuperar información con exactitud cuando ésta ha sido guardada.<br><br>Por lo anterior, la mayor parte de proyectos IoT se basan en tecnología digital.
 
 
       Separador
@@ -83,10 +83,10 @@
         .col-lg-4.col-22
           img(src="@/assets/curso/tema7/7.1.png")
         .col-lg-8.col-22.py-2 
-          p La programación en bloques permite aprender la lógica de programación desde niños, mediante el uso de conexiones sencillas en forma de bloques. Cada bloque tiene una instrucción, condición o evento diferente. Al programar el paso a paso de una función, se deben encajar los bloques de forma ordenada y lógica, de modo que al juntarlos encajan como piezas de lego o rompecabezas, creando pilas o cadenas secuenciales de bloques, es decir, pequeños programas. Entre los principales objetivos de la programación por bloques está el que sea muy simple e intuitiva, ya que no requiere de que sepamos escribir código<br><br>Existen múltiples herramientas y plataformas para incentivar el aprendizaje y volver más funcional la programación por bloques. A continuación, se destacan algunas de ellas:
+          p La programación en bloques permite aprender la lógica de programación desde niños, mediante el uso de conexiones sencillas en forma de bloques. Cada bloque tiene una instrucción, condición o evento diferente. Al programar el paso a paso de una función, se deben encajar los bloques de forma ordenada y lógica, de modo que al juntarlos encajan como piezas de lego o rompecabezas, creando pilas o cadenas secuenciales de bloques, es decir, pequeños programas. Entre los principales objetivos de la programación por bloques está el que sea muy simple e intuitiva, ya que no requiere de que sepamos escribir código.<br><br>Existen múltiples herramientas y plataformas para incentivar el aprendizaje y volver más funcional la programación por bloques. A continuación, se destacan algunas de ellas:
 
       .row(data-aos="fade-right")
-        .col-lg-4.col-22
+        .col-lg-5.col-22
           h4.subrayado-naranja.p-1 Herramientas de programación por bloques
 
       SlyderF(columnas="col-lg-4 col-xl-4").p-4(data-aos="fade-right")
