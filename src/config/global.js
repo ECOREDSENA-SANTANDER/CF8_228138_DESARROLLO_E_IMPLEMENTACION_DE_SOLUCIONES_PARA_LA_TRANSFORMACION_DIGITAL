@@ -133,6 +133,12 @@ export default {
             titulo: 'Tipos',
             hash: 't_6_1',
           },
+          {
+            numero: '6.2',
+            titulo:
+              'Tecnologías <i>iscsi, fiber channel, sas</i>y arreglos <i>raid</i>',
+            hash: 't_6_2',
+          },
         ],
       },
       {

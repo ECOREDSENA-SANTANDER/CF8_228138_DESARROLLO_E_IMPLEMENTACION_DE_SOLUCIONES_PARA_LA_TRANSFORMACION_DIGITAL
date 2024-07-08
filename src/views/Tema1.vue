@@ -47,7 +47,7 @@
           .tarjeta.fondo-slyderC
             .p-4
               h4 Contadores inteligentes
-              p Dispositivos electrónicos de medición de energía, calefacción, climatización , agua.
+              p Dispositivos electrónicos de medición de energía, calefacción, climatización, agua.
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/5.png' alt='AvatarTop')
           .tarjeta.fondo-slyderC
