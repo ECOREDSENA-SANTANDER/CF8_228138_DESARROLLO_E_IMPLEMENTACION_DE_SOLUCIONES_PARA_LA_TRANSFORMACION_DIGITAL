@@ -67,7 +67,7 @@
         .col-lg-4.col-11
           img(src='@/assets/curso/tema4/http.png', alt='') 
         .col-lg-8.col-22.py-3
-          p El protocolo #[em HTTP], de su sigla en inglés #[em Hypertext Transfer Protocol], permite realizar una petición de datos y recursos, como, por ejemplo, documentos #[em HTML]. Este protocolo es la base de cualquier intercambio de datos en la en la #[em WWW (World Wide Web)] que permite hablar un mismo idioma a la hora de transmitir información. El funcionamiento del #[em HTTP] se basa en un esquema de petición-respuesta, como se representa en la siguiente figura, donde cada petición individual es remitida a un servidor, que se encarga de gestionar y responder. Entre cada petición y respuesta, hay varios intermediarios, normalmente denominados #[em proxy].
+          p El protocolo #[em HTTP], de su sigla en inglés #[em Hypertext Transfer Protocol], permite realizar una petición de datos y recursos, como, por ejemplo, documentos #[em HTML]. Este protocolo es la base de cualquier intercambio de datos en la #[em WWW (World Wide Web)] que permite hablar un mismo idioma a la hora de transmitir información. El funcionamiento del #[em HTTP] se basa en un esquema de petición-respuesta, como se representa en la siguiente figura, donde cada petición individual es remitida a un servidor, que se encarga de gestionar y responder. Entre cada petición y respuesta, hay varios intermediarios, normalmente denominados #[em proxy].
   
 
         .row.justify-content-center.align-items-center
@@ -85,7 +85,7 @@
         h2 4.2 #[em WEBSOCKET]
       .row(data-aos="fade-left")
         .col-lg-8.col-22 
-          p #[em Websocket] es una tecnología avanzada que ace posible generar una sesión de comunicación de intercambio entre el navegador del usuario y un servidor. Con esta API, se puede remitir mensajes a un servidor y recibir contestaciones vigiladas por eventos, sin tener que consultar al servidor para una respuesta. Compatible con todos los navegadores, las peticiones y respuestas se envían en #[em Websocket] donde establecen una comunicación en el lenguaje del mismo protocolo.<br>
+          p #[em Websocket] es una tecnología avanzada que hace posible generar una sesión de comunicación de intercambio entre el navegador del usuario y un servidor. Con esta API, se puede remitir mensajes a un servidor y recibir contestaciones vigiladas por eventos, sin tener que consultar al servidor para una respuesta. Compatible con todos los navegadores, las peticiones y respuestas se envían en #[em Websocket] donde establecen una comunicación en el lenguaje del mismo protocolo.<br>
           p La siguiente figura ilustra el proceso de utilización de Websocket que inicia con su apertura. Cuando se crea #[em new WebSocket(url)], comienza la conexión de manera inmediata. Durante la unión, el navegador (usando cabeceras o #[em “header”]) le pregunta al servidor: “¿Soportas #[em Websockets]?” y si el servidor responde “Sí”, la comunicación se prolonga en el protocolo #[em WebSocket], que no es #[em HTTP] en absoluto.
         .col-lg-4.col-22
           img(src="@/assets/curso/tema4/4.2.png")

@@ -72,7 +72,7 @@
           img(src="@/assets/curso/tema2/img03.png")
         .col-lg-7.col-22.p-3
           h5.p-2 Inventado en el #[em Ivrea Interaction Design Institute], diseñado para la creación rápida de prototipos dirigido a aficionados, muy pronto su uso creció exponencialmente y se adapta a las últimas tendencias en el mercado, desde una placa de 8 #[em bits] hasta productos IoT, dispositivos portátiles y entornos embebidos.
-          p.p-2 El #[em software] Arduino es fácil de usar y se puede operar en plataformas #[em Mac, Linux y Windows].<br><br>A continuación identifiquemos cada uno de sus componentes:
+          p.p-2 El #[em software] Arduino es fácil de usar y se puede operar en plataformas #[em Mac, Linux y Windows].<br><br>A continuación, identifiquemos cada uno de sus componentes:
       
       
       .container.tarjeta.color-contenedornaranja.p-4.p-md-5 
@@ -94,7 +94,7 @@
 
                   .tarjeta.color-acento-botones.p-3(x="10%" y="90%" numero="3")
                     .h5.mb-2 3. Conector de alimentación
-                    p Esta es la forma de alimentar nuestra placa cuando no está conectada a un puerto USB para para suministrar corriente eléctrica. Puede aceptar tensiones entre 7-12V.
+                    p Esta es la forma de alimentar nuestra placa cuando no está conectada a un puerto USB para suministrar corriente eléctrica. Puede aceptar tensiones entre 7-12V.
 
                   .tarjeta.color-acento-botones.p-3(x="70%" y="10%" numero="4")
                     .h5.mb-2 4. Los pines digitales
@@ -102,11 +102,11 @@
           
                   .tarjeta.color-acento-botones.p-3(x="90%" y="10%" numero="5")
                     .h5.mb-2 5. Serial #[em IN] (TX)
-                    p Los puertos serie están físicamente unidos a distintos pines de la placa Arduino. Lógicamente, mientras usamos los puertos de serie no podemos usar como entradas o salidas digitales los pines asociados con el puerto de serie en uso. Pines asociados con el puerto de serie como entrada y salida digital (TX es el que Transmite y RX es el que recibe).
+                    p Los puertos de serie están físicamente unidos a distintos pines de la placa Arduino. Lógicamente, mientras usamos los puertos de serie, no podemos usar como entradas o salidas digitales los pines asociados con el puerto de serie en uso. Pines asociados con el puerto de serie como entrada y salida digital (TX es el que Transmite y RX es el que recibe).
 
                   .tarjeta.color-acento-botones.p-3(x="93%" y="10%" numero="6")
                     .h5.mb-2 6. Serial IN (RX)
-                    p Los puertos serie están físicamente unidos a distintos pines de la placa Arduino. Lógicamente, mientras usamos los puertos de serie no podemos usar como entradas o salidas digitales los pines asociados con el puerto de serie en uso. Pines asociados con el puerto de serie como entrada y salida digital (TX es el que Transmite y RX es el que recibe).
+                    p Los puertos de serie están físicamente unidos a distintos pines de la placa Arduino. Lógicamente, mientras usamos los puertos de serie, no podemos usar como entradas o salidas digitales los pines asociados con el puerto de serie en uso. Pines asociados con el puerto de serie como entrada y salida digital (TX es el que Transmite y RX es el que recibe).
                   
                   .tarjeta.color-acento-botones.p-3(x="51%" y="10%" numero="7/23")
                     .h5.mb-2 7 y 23. Pin 13 + L (#[em on board led])

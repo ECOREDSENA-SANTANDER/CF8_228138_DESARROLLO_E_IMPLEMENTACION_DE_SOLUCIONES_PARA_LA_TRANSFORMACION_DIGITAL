@@ -10,7 +10,7 @@
             img(src="@/assets/template/Completar_Espacios.svg", alt="Actividad didáctica:Autoevaluación de conceptos de análisis y valoración de riesgos de ciberseguridad")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Autoevaluación de conceptos de análisis y valoración de riesgos de ciberseguridadConceptos básicos para la configuración de dispositivos de IoT
+          h2 Autoevaluación de conceptos de análisis y valoración de riesgos de ciberseguridad Conceptos básicos para la configuración de dispositivos de IoT
         p.mb-4 Identificar conceptos básicos relacionados con el desarrollo de soluciones de IoT para la transformación digital, de acuerdo con requerimientos de implementación establecidos.  
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center

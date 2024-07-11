@@ -21,7 +21,7 @@
           img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema5/img02.png")
           .fondo-slyderC.p-3
             h4 Sensores de proximidad
-            p Utilizados en el ámbito de la seguridad y la video vigilancia, detectan la presencia o ausencia de un cuerpo cercano a las propiedades, convirtiéndolas en una señal de fácil lectura.
+            p Utilizados en el ámbito de la seguridad y la videovigilancia, detectan la presencia o ausencia de un cuerpo cercano a las propiedades, convirtiéndolas en una señal de fácil lectura.
         .tarjeta
           img.mb-lg-8.mb-8(alt="" src="@/assets/curso/tema5/img03.png")
           .fondo-slyderC.p-3

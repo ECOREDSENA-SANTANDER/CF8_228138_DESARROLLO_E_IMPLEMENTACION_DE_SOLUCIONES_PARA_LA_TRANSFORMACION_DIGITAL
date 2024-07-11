@@ -19,7 +19,7 @@
         h2 1.1 Origen e importancia
       .row(data-aos="fade-left")
         p Entre los años 1991 y 1999, Mark Weiser y Naoto Fukusawa se centraron en el área del diseño de dispositivos que tengan una sensibilidad a la naturaleza humana, y estos dispositivos se volverán una parte integral de los seres humanos ejecutando algunos patrones de uso. Kevin Ashton, cofundador de AUTO ID center del MIT en 1999 en una presentación de frecuencias de radio (RFID) llamó a su presentación <b>“Internet de las cosas”,</b> pero el verdadero Internet de las cosas sucedería cuando se conecten a internet más dispositivos que personas y esto sucedió en el 2009 con el nacimiento de los celulares. 
-        p En estos términos, para el 2022 se espera que estén #[b conectados 18 mil millones de dispositivos,] no solo celulares, #[em tablets, pc’s], sino también dispositivos que nunca nos imaginaríamos tales como refrigeradores, cepillos, autos, zapatillas, collares de mascotas, iluminación, cerraduras, ropa, etc.
+        p En estos términos, para el 2022 se espera que estén #[b conectados 18 mil millones de dispositivos,] no solo celulares, #[em tablets, pc’s], sino también dispositivos que nunca nos imaginaríamos, tales como refrigeradores, cepillos, autos, zapatillas, collares de mascotas, iluminación, cerraduras, ropa, etc.
         p El internet de las cosas tiene un millar de aplicaciones, algunas de ellas son:
 
       SlyderF(columnas="col-lg-4 col-xl-4").p-4(data-aos="fade-right")
@@ -85,7 +85,7 @@
             .tarjeta.color-salmon
               .p-4
                 h4 Capa de aplicación
-                p Es responsable de proporcionar servicios de aplicación al usuario, ejemplo hogares inteligentes, ciudades inteligentes, salud inteligente, etc.
+                p Es responsable de proporcionar servicios de aplicación al usuario, por ejemplo: hogares inteligentes, ciudades inteligentes, salud inteligente, etc.
      
       .row.p-4
         .col-12
@@ -146,7 +146,7 @@
                 .col-xl-4.mb-4.py-3
                   img(src='@/assets/curso/tema1/001.png', alt='Texto que describa la imagen')
                 .col-xl-8.py-4
-                  p #[b Sensores digitales:] la salida del sensor es binaria o digital la cual puede ser procesada directamente a través de controlador o procesador.
+                  p #[b Sensores digitales:] la salida del sensor es binaria o digital, la cual puede ser procesada directamente a través de controlador o procesador.
 
               .row
                 .col-xl-4.mb-4
@@ -263,7 +263,7 @@
           AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Actuadores lineales")
               .col-md-8.mb-4.mb-md-0
-                p Se utilizan para permitir el movimiento de objetos o elementos en línea recta, se emplean principalmente para movimientos como empujar levantar, tirar, bloquear, expulsar, sujetar o descender.
+                p Se utilizan para permitir el movimiento de objetos o elementos en línea recta, se emplean principalmente para movimientos como empujar, levantar, tirar, bloquear, expulsar, sujetar o descender.
               .col-md-3
                 figure
                   img(src="@/assets/curso/tema1/a4.png")
@@ -275,7 +275,7 @@
                   img(src="@/assets/curso/tema1/a5.png")
             .row(titulo="Relés")
               .col-md-8.mb-4.mb-md-0
-                p Se basan en electroimanes para manejar mecánicamente un interruptor.  No necesitan mucha energía para operar la bobina del relé. Se usan en lámparas, calentadores, vehículos inteligentes entre otros.
+                p Se basan en electroimanes para manejar mecánicamente un interruptor.  No necesitan mucha energía para operar la bobina del relé. Se usan en lámparas, calentadores, vehículos inteligentes, entre otros.
               .col-md-3
                 figure.justify-content-center.align-items-center
                   img(src="@/assets/curso/tema1/a6.png")

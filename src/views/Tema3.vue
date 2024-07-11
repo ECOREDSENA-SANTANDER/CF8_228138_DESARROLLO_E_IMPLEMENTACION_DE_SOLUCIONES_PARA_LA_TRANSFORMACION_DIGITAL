@@ -86,7 +86,7 @@
           p Se encarga del formato que deseamos analizar e implementa mecanismos de codificación como ASCII o Unicode para representar los datos a un formato que las computadoras entienden, se traduce lenguaje de alto nivel a lenguaje binario. Por ejemplo: si queremos conocer una imagen, esta capa se encarga de dicha acción.
         .tarjeta.color-contenedorpink.p-4(titulo="5. Sesión")
           h4 5. Sesión
-          p Maneja la conversación entre dos equipos (#[em hosts]) y establece el camino para las aplicaciones que se van a comunicar entre el dispositivo emisor y el receptor; el diálogo de establecer mantener y cerrar se llama sesión.
+          p Maneja la conversación entre dos equipos (#[em hosts]) y establece el camino para las aplicaciones que se van a comunicar entre el dispositivo emisor y el receptor; el diálogo de establecer, mantener y cerrar se llama sesión.
         .tarjeta.color-contenedorpink.p-4(titulo="4. Transporte")
           h4 4. Transporte
           p Segmenta los datos en paquete, se hace en el dispositivo emisor y el dispositivo receptor hace todo lo contrario; a este al proceso se le conoce como segmentación y reensamblaje. Los datos son particionados, puesto que las redes tienen anchos de banda limitados.

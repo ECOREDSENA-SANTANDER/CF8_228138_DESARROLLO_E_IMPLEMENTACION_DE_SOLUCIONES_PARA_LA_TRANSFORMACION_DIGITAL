@@ -243,7 +243,7 @@ export default {
     {
       termino: 'Contratación',
       significado:
-        'Pacto o convenio, oral o escrito, entre partes que se obligan sobre materia o cosa determinada, y a cuyo cumplimiento pueden ser compelidas (Real Academia Española, s.f.)”.',
+        'Pacto o convenio, oral o escrito, entre partes que se obligan sobre materia o cosa determinada, y a cuyo cumplimiento pueden ser compelidas (Real Academia Española, s.f.).',
     },
     {
       termino: '<i>Cloud computing</i>',
@@ -322,7 +322,7 @@ export default {
         'Ley 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales.  17 de octubre de 2022. D.O. No. 48587.',
       tipo: 'Libro',
       link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=49981 ',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=49981',
     },
     {
       tema: 'Conectividad IoT',
@@ -342,16 +342,16 @@ export default {
     {
       tema: 'Computación en la nube',
       referencia:
-        'MinTIC expide la resolución que establece los lineamientos y estándares para la estrategia de seguridad digital - MinTIC expide la resolución que establece los lineamientos y estándares para la estrategia de seguridad digital. (s/f). MINTIC Colombia. Recuperado el 25 de junio de 2024.',
+        'MinTIC expide la resolución que establece los lineamientos y estándares para la estrategia de seguridad digital. (s/f). MINTIC Colombia.',
       tipo: 'Artículo',
       link:
-        'https://mintic.gov.co/portal/inicio/Sala-de-prensa/Noticias/162626:MinTIC-expide-la-resolucion-que-establece-los-lineamientos-y-estandares-para-la-estrategia-de-seguridad-digital',
+        'https://mintic.gov.co/portal/inicio/Sala-de-prensa/Noticias/162626:MinTIC-expide-la-resolucion-que-establece-los-lineamientos-y-estandares-para-la-estrategia-de-seguridad-digital ',
     },
     {
       tema: 'Adquisición de datos en la nube',
       referencia: 'Public cloud services comparison. (s.f.).',
       tipo: 'Página web',
-      link: 'comparecloud.in',
+      link: 'https://comparecloud.in/ ',
     },
   ],
   creditos: [
@@ -376,7 +376,8 @@ export default {
         {
           nombre: 'Cesar Antonio Villamizar Nuñez',
           cargo: 'Experto temático',
-          centro: 'Sena - Norte de Santander Centro - CIES',
+          centro:
+            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
         },
         {
           nombre: 'Maribel Avellaneda Nieves',
@@ -411,7 +412,12 @@ export default {
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Yazmin Rocio Figueroa Pacheco',
+          nombre: 'Lucenith Pinilla Moreno',
+          cargo: 'Desarrollador <i>Fullstack</i> Junior',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
+          nombre: 'Yazmín Rocío Figueroa Pacheco',
           cargo: 'Diseñadora de Contenidos Digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
@@ -426,18 +432,8 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Yineth Ibette Gonzalez Quintero',
-          cargo: 'Validadora de Recursos Educativos Digitales',
-          centro: 'Regional Santander - Centro Agroturístico',
-        },
-        {
           nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Validadora de Recursos Educativos Digitales',
-          centro: 'Regional Santander - Centro Agroturístico',
-        },
-        {
-          nombre: 'Erika Fernanda Mejía Pinzón',
-          cargo: 'Evaluadora para Contenidos Inclusivos y Accesibles',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
