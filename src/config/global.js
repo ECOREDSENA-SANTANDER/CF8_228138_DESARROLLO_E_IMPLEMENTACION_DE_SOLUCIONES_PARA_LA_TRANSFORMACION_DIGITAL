@@ -311,7 +311,7 @@ export default {
     {
       tema: 'Computación en la nube',
       referencia:
-        'Decreto 1377 de 2013 - Gestor Normativo. (s/f). Gov.co. Recuperado el 25 de junio de 2024.',
+        'Decreto 1377 de 2013. Por el cual se reglamenta parcialmente la Ley 1581 de 2012. 27 de junio de 2013.',
       tipo: 'PDF',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=53646',

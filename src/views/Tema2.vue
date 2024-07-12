@@ -166,7 +166,7 @@
 
                   .tarjeta.color-acento-botones.p-3(x="46%" y="34%" numero="21")
                     .h5.mb-2  21. #[em TX y RX LED.]
-                    p  Estos #[em LEDs] indican la comunicación entre la placa y el ordenador. Estos #[em leds] parpadearán rápidamente durante la carga de nuestros programas, así como durante la comunicación serie. Útil para la depuración #[em debugging]
+                    p  Estos #[em LEDs] indican la comunicación entre la placa y el ordenador. Estos #[em leds] parpadearán rápidamente durante la carga de nuestros programas, así como durante la comunicación serie. Útil para la depuración #[em debugging].
                     
                   
                   .tarjeta.color-acento-botones.p-3(x="75%" y="54%" numero="22")
