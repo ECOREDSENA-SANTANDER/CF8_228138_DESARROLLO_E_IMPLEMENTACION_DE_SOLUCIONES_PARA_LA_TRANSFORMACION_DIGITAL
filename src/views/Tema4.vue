@@ -57,7 +57,7 @@
           .tarjeta.fondo-slyderC
             .p-4
               h4 Capa 7 - Nivel de aplicación
-              p Puede acceder a las demás capas y definir los protocolos para el intercambio de datos. Por ejemplo en el correo electrónico, se usa #[em POP y SMTP], y protocolos de transferencia de ficheros como #[em FTP].
+              p Puede acceder a las demás capas y definir los protocolos para el intercambio de datos. Por ejemplo, en el correo electrónico, se usa #[em POP y SMTP], y protocolos de transferencia de ficheros como #[em FTP].
   
       Separador
       #t_4_1.titulo-segundo.color-acento-contenido

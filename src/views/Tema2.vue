@@ -171,7 +171,7 @@
                   
                   .tarjeta.color-acento-botones.p-3(x="75%" y="54%" numero="22")
                     .h5.mb-2 Casa fabricante original.
-                    p Aquí puedes comprobar fácilmente si tu placa se trata de una imitación o el original.
+                    p En el siguiente enlace puedes comprobar fácilmente si tu placa se trata de una imitación o el original: https://www.arduino.cc/ 
 
                   .tarjeta.color-acento-botones.p-3(x="33%" y="50%" numero="24")
                     .h5.mb-2 24. Reloj / #[em Crystal 16 Mhz] oscilador

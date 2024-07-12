@@ -281,7 +281,7 @@
                   img(src="@/assets/curso/tema1/a6.png")
             .row(titulo="Solenoides")
               .col-md-8.mb-4.mb-md-0
-                p Son un electroimán usados en electrodomésticos, equipos de oficina, automóviles, y  también funcionan como controladores en los sistemas de fugas de agua y gas en Iota.
+                p Son un electroimán usado en electrodomésticos, equipos de oficina, automóviles, y  también funcionan como controladores en los sistemas de fugas de agua y gas en Iota.
               .col-md-3
                 figure.justify-content-center.align-items-center
                   img(src="@/assets/curso/tema1/a7.png")

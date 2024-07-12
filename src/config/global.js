@@ -334,18 +334,18 @@ export default {
     {
       tema: 'Computación en la nube',
       referencia:
-        'Ministerio de Tecnologías de la Información y Comunicaciones (2019) G.ST.01 Guía del dominio de servicios tecnológicos.',
+        'Ministerio de Tecnologías de la Información y Comunicaciones (2023). Guía dominio MGGTI.G.ST - Gestión De Servicios De TI.',
       tipo: 'Guía ',
       link:
-        'https://www.cvc.gov.co/sites/default/files/2018-10/G.ST_.01%20Guia%20del%20dominio%20de%20servicios%20tecnologicos%20V1%202014-Dic-30.pdf',
+        'https://www.mintic.gov.co/arquitecturaempresarial/630/articles-237663_recurso_1.pdf',
     },
     {
       tema: 'Computación en la nube',
       referencia:
-        'MinTIC expide la resolución que establece los lineamientos y estándares para la estrategia de seguridad digital. (s/f). MINTIC Colombia.',
+        'Ministerio de Tecnologías de la Información y Comunicaciones (2021). MinTIC expide la resolución que establece los lineamientos y estándares para la estrategia de seguridad digital.',
       tipo: 'Artículo',
       link:
-        'https://mintic.gov.co/portal/inicio/Sala-de-prensa/Noticias/162626:MinTIC-expide-la-resolucion-que-establece-los-lineamientos-y-estandares-para-la-estrategia-de-seguridad-digital ',
+        'https://mintic.gov.co/portal/inicio/Sala-de-prensa/Noticias/162626:MinTIC-expide-la-resolucion-que-establece-los-lineamientos-y-estandares-para-la-estrategia-de-seguridad-digital',
     },
     {
       tema: 'Adquisición de datos en la nube',
